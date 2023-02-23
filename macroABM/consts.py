@@ -1,0 +1,13 @@
+INIT_POPS: int = 50
+
+NUM_MARKET_TYPES: int = 3
+
+MARKET_LABOUR: int = 0
+MARKET_PRODUCE: int = 1
+MARKET_SERVICES: int = 2
+
+DICT_MARKET_TYPES = {
+    MARKET_LABOUR: "Labour",
+    MARKET_PRODUCE: "Produce",
+    MARKET_SERVICES: "Services"
+}
