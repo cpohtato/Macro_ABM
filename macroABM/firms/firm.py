@@ -1,6 +1,6 @@
-from .pop import *
+from ..utils import *
 
-class Market():
+class Firm():
 
     def __init__(self):
         pass
