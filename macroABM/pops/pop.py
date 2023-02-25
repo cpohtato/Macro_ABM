@@ -12,11 +12,18 @@ class Pop():
         self.ownsFirm: bool = False
         self.ownedFirmType: int = -1
 
+        self.funds:float = INIT_FUNDS_PER_POP
+
+    def roiToProfit(self, roi: float):
+
+        investment = self.funds * (1 - SAVINGS_RATE)
+        return roi * investment * (1 - ENTREPRENEURIAL_RELUCTANCE)
+
     def modifyProfits(self, listProfits: list[float]):
 
         listModifiedProfits = listProfits.copy()
         for outputType in range(NUM_MARKET_TYPES):
-            if outputType != TYPE_LABOUR: listModifiedProfits[outputType] *= 1 - ENTREPRENEURIAL_RELUCTANCE
+            if outputType != TYPE_LABOUR: listModifiedProfits[outputType] = self.roiToProfit(listProfits[outputType])
 
         return listModifiedProfits
 
@@ -27,6 +34,9 @@ class Pop():
     def createNewFirm(self, outputType: int):
         self.ownsFirm = True
         self.ownedFirmType = outputType
+        investment = self.funds * (1 - SAVINGS_RATE)
+        self.funds -= investment
+        return investment
 
     def priceLabour(self, baseWage: float):
         sigma = baseWage * WAGE_NORM_STD_DEV
@@ -45,7 +55,16 @@ class Pop():
             outputType = self.chooseOutputType(listProfits)
             
             if (outputType == TYPE_LABOUR): price = self.priceLabour(listProfits[TYPE_LABOUR])
-            else: self.createNewFirm(outputType)
+            else: price = self.createNewFirm(outputType)
+
+        # outputType: type of good
+        # firmExists: if owned firm already exists
+        # price:      if (output == labour): price == asking price for this pop's labour
+        #             else:
+        #                 if (firmExists == True): price means nothing
+        #                 else:                    price == starting investment into new firm
 
         return [self.id, outputType, firmExists, price]
+
+        
 

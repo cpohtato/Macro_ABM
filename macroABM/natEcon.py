@@ -32,7 +32,9 @@ class NationalEconomy():
     def stepProductionPhase(self):
         
         listProfits: list[float] = self.markets.estimateProfits()
-        self.pops.produce()
+        popDecisionMap: list[list] = self.pops.produce(listProfits)
+        self.markets.makeLabourAvailable(popDecisionMap)
+        self.firms.makeNewFirmsFromDecisionMap(popDecisionMap)
         self.firms.produce()
 
     def stepTaxationPhase(self):

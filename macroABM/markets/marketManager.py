@@ -16,5 +16,12 @@ class MarketManager():
 
         return listProfits
 
+    def makeLabourAvailable(self, decisionMap: list[list]):
+
+        for decision in decisionMap:
+            if (decision[DECISION_GOOD_TYPE_INDEX] == TYPE_LABOUR): 
+                self.listMarkets[TYPE_LABOUR].createSellOrder(
+                    decisionMap[DECISION_ID_INDEX], decisionMap[DECISION_PRICE_INDEX], 1, 0.0)
+
     def settle(self):
         pass
