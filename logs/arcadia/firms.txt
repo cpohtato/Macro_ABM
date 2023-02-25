@@ -1,0 +1,600 @@
+========================= MONTH 0 =========================
+
+Produce: 30 firms, avg. profit $19.04
+Services: 31 firms, avg. profit $11.31
+
+
+========================= MONTH 1 =========================
+
+Produce: 68 firms, avg. profit $-0.09
+Services: 71 firms, avg. profit $-0.35
+
+
+========================= MONTH 2 =========================
+
+Produce: 56 firms, avg. profit $0.30
+Services: 52 firms, avg. profit $0.43
+
+
+========================= MONTH 3 =========================
+
+Produce: 21 firms, avg. profit $1.83
+Services: 16 firms, avg. profit $0.53
+
+
+========================= MONTH 4 =========================
+
+Produce: 17 firms, avg. profit $-1.18
+Services: 14 firms, avg. profit $-0.14
+
+
+========================= MONTH 5 =========================
+
+Produce: 15 firms, avg. profit $-0.68
+Services: 12 firms, avg. profit $-0.60
+
+
+========================= MONTH 6 =========================
+
+Produce: 12 firms, avg. profit $-1.23
+Services: 11 firms, avg. profit $-0.96
+
+
+========================= MONTH 7 =========================
+
+Produce: 13 firms, avg. profit $-1.09
+Services: 9 firms, avg. profit $-0.93
+
+
+========================= MONTH 8 =========================
+
+Produce: 9 firms, avg. profit $-0.92
+Services: 7 firms, avg. profit $-1.60
+
+
+========================= MONTH 9 =========================
+
+Produce: 11 firms, avg. profit $-2.01
+Services: 5 firms, avg. profit $-1.80
+
+
+========================= MONTH 10 =========================
+
+Produce: 10 firms, avg. profit $-0.97
+Services: 7 firms, avg. profit $-1.53
+
+
+========================= MONTH 11 =========================
+
+Produce: 10 firms, avg. profit $-2.19
+Services: 6 firms, avg. profit $-1.79
+
+
+========================= MONTH 12 =========================
+
+Produce: 10 firms, avg. profit $-1.25
+Services: 10 firms, avg. profit $-1.07
+
+
+========================= MONTH 13 =========================
+
+Produce: 14 firms, avg. profit $-0.92
+Services: 13 firms, avg. profit $-0.74
+
+
+========================= MONTH 14 =========================
+
+Produce: 16 firms, avg. profit $-1.61
+Services: 9 firms, avg. profit $-0.73
+
+
+========================= MONTH 15 =========================
+
+Produce: 8 firms, avg. profit $-1.85
+Services: 8 firms, avg. profit $-1.40
+
+
+========================= MONTH 16 =========================
+
+Produce: 5 firms, avg. profit $-3.41
+Services: 8 firms, avg. profit $-1.03
+
+
+========================= MONTH 17 =========================
+
+Produce: 3 firms, avg. profit $-2.37
+Services: 9 firms, avg. profit $-0.77
+
+
+========================= MONTH 18 =========================
+
+Produce: 8 firms, avg. profit $-1.43
+Services: 9 firms, avg. profit $-0.53
+
+
+========================= MONTH 19 =========================
+
+Produce: 9 firms, avg. profit $-1.04
+Services: 8 firms, avg. profit $-0.50
+
+
+========================= MONTH 20 =========================
+
+Produce: 4 firms, avg. profit $-0.88
+Services: 9 firms, avg. profit $-0.36
+
+
+========================= MONTH 21 =========================
+
+Produce: 15 firms, avg. profit $-0.69
+Services: 8 firms, avg. profit $-0.25
+
+
+========================= MONTH 22 =========================
+
+Produce: 14 firms, avg. profit $-0.19
+Services: 11 firms, avg. profit $-0.27
+
+
+========================= MONTH 23 =========================
+
+Produce: 10 firms, avg. profit $-0.93
+Services: 8 firms, avg. profit $-0.15
+
+
+========================= MONTH 24 =========================
+
+Produce: 9 firms, avg. profit $-0.37
+Services: 11 firms, avg. profit $-0.19
+
+
+========================= MONTH 25 =========================
+
+Produce: 4 firms, avg. profit $-0.63
+Services: 10 firms, avg. profit $-0.11
+
+
+========================= MONTH 26 =========================
+
+Produce: 5 firms, avg. profit $-0.32
+Services: 2 firms, avg. profit $0.08
+
+
+========================= MONTH 27 =========================
+
+Produce: 4 firms, avg. profit $-0.19
+Services: 4 firms, avg. profit $-0.02
+
+
+========================= MONTH 28 =========================
+
+Produce: 5 firms, avg. profit $-0.17
+Services: 4 firms, avg. profit $-0.02
+
+
+========================= MONTH 29 =========================
+
+Produce: 4 firms, avg. profit $-0.25
+Services: 1 firms, avg. profit $-0.01
+
+
+========================= MONTH 30 =========================
+
+Produce: 2 firms, avg. profit $0.06
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 31 =========================
+
+Produce: 11 firms, avg. profit $-0.03
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 32 =========================
+
+Produce: 10 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 33 =========================
+
+Produce: 5 firms, avg. profit $-0.03
+Services: 1 firms, avg. profit $-0.02
+
+
+========================= MONTH 34 =========================
+
+Produce: 5 firms, avg. profit $-0.01
+Services: 1 firms, avg. profit $-0.00
+
+
+========================= MONTH 35 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 36 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 37 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 38 =========================
+
+Produce: 1 firms, avg. profit $-0.03
+Services: 1 firms, avg. profit $-0.01
+
+
+========================= MONTH 39 =========================
+
+Produce: 1 firms, avg. profit $-0.01
+Services: 1 firms, avg. profit $-0.00
+
+
+========================= MONTH 40 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 41 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 42 =========================
+
+Produce: 1 firms, avg. profit $-0.03
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 43 =========================
+
+Produce: 1 firms, avg. profit $-0.01
+Services: 1 firms, avg. profit $-0.01
+
+
+========================= MONTH 44 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 1 firms, avg. profit $-0.00
+
+
+========================= MONTH 45 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 46 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 47 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 48 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 1 firms, avg. profit $-0.04
+
+
+========================= MONTH 49 =========================
+
+Produce: 2 firms, avg. profit $-0.02
+Services: 1 firms, avg. profit $-0.01
+
+
+========================= MONTH 50 =========================
+
+Produce: 2 firms, avg. profit $-0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 51 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 52 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 53 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 1 firms, avg. profit $-0.04
+
+
+========================= MONTH 54 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 1 firms, avg. profit $-0.01
+
+
+========================= MONTH 55 =========================
+
+Produce: 1 firms, avg. profit $-0.04
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 56 =========================
+
+Produce: 1 firms, avg. profit $-0.01
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 57 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 58 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 59 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 60 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 61 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 2 firms, avg. profit $-0.03
+
+
+========================= MONTH 62 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 2 firms, avg. profit $-0.01
+
+
+========================= MONTH 63 =========================
+
+Produce: 1 firms, avg. profit $-0.03
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 64 =========================
+
+Produce: 1 firms, avg. profit $-0.01
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 65 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 66 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 67 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 68 =========================
+
+Produce: 2 firms, avg. profit $-0.03
+Services: 1 firms, avg. profit $-0.03
+
+
+========================= MONTH 69 =========================
+
+Produce: 2 firms, avg. profit $-0.01
+Services: 1 firms, avg. profit $-0.01
+
+
+========================= MONTH 70 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 71 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 72 =========================
+
+Produce: 1 firms, avg. profit $-0.04
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 73 =========================
+
+Produce: 1 firms, avg. profit $-0.01
+Services: 1 firms, avg. profit $-0.02
+
+
+========================= MONTH 74 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 1 firms, avg. profit $-0.00
+
+
+========================= MONTH 75 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 76 =========================
+
+Produce: 1 firms, avg. profit $-0.02
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 77 =========================
+
+Produce: 1 firms, avg. profit $-0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 78 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 79 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 1 firms, avg. profit $-0.02
+
+
+========================= MONTH 80 =========================
+
+Produce: 1 firms, avg. profit $-0.02
+Services: 1 firms, avg. profit $-0.00
+
+
+========================= MONTH 81 =========================
+
+Produce: 1 firms, avg. profit $-0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 82 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 83 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 2 firms, avg. profit $-0.03
+
+
+========================= MONTH 84 =========================
+
+Produce: 2 firms, avg. profit $-0.02
+Services: 2 firms, avg. profit $-0.01
+
+
+========================= MONTH 85 =========================
+
+Produce: 2 firms, avg. profit $-0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 86 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 87 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 2 firms, avg. profit $-0.02
+
+
+========================= MONTH 88 =========================
+
+Produce: 1 firms, avg. profit $-0.01
+Services: 2 firms, avg. profit $-0.00
+
+
+========================= MONTH 89 =========================
+
+Produce: 1 firms, avg. profit $-0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 90 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 91 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 2 firms, avg. profit $-0.01
+
+
+========================= MONTH 92 =========================
+
+Produce: 1 firms, avg. profit $-0.03
+Services: 2 firms, avg. profit $-0.00
+
+
+========================= MONTH 93 =========================
+
+Produce: 1 firms, avg. profit $-0.01
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 94 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 95 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 96 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 2 firms, avg. profit $-0.02
+
+
+========================= MONTH 97 =========================
+
+Produce: 3 firms, avg. profit $-0.02
+Services: 2 firms, avg. profit $-0.00
+
+
+========================= MONTH 98 =========================
+
+Produce: 3 firms, avg. profit $-0.00
+Services: 0 firms, avg. profit $0.00
+
+
+========================= MONTH 99 =========================
+
+Produce: 0 firms, avg. profit $0.00
+Services: 0 firms, avg. profit $0.00
+
+

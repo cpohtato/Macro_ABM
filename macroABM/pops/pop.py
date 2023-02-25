@@ -1,7 +1,9 @@
 from ..utils import *
+from ..markets.marketManager import *
+from ..firms.firmManager import *
 
-ENTREPRENEURIAL_RELUCTANCE = 0.25
-WAGE_NORM_STD_DEV = 0.1
+ENTREPRENEURIAL_RELUCTANCE = 0.4
+WAGE_NORM_STD_DEV = 0.05
 
 class Pop():
 
@@ -12,7 +14,15 @@ class Pop():
         self.ownsFirm: bool = False
         self.ownedFirmType: int = -1
 
-        self.funds:float = INIT_FUNDS_PER_POP
+        self.funds: float = INIT_FUNDS_PER_POP
+        self.currIncome: float = 0.0
+
+        self.producePreference = random.normalvariate(DICT_PREFERENCE_MEAN[TYPE_PRODUCE],
+                                                      DICT_PREFERENCE_STD_DEV[TYPE_PRODUCE])
+        self.servicesPreference = random.normalvariate(DICT_PREFERENCE_MEAN[TYPE_SERVICES],
+                                                       DICT_PREFERENCE_STD_DEV[TYPE_SERVICES])
+
+        self.currBundle: list[int] = [0] * NUM_GOOD_TYPES
 
     def roiToProfit(self, roi: float):
 
@@ -22,25 +32,31 @@ class Pop():
     def modifyProfits(self, listProfits: list[float]):
 
         listModifiedProfits = listProfits.copy()
-        for outputType in range(NUM_MARKET_TYPES):
+        for outputType in range(NUM_GOOD_TYPES):
             if outputType != TYPE_LABOUR: listModifiedProfits[outputType] = self.roiToProfit(listProfits[outputType])
+            else: listModifiedProfits[outputType] *= LABOUR_PER_POP
+            if (listModifiedProfits[outputType] <= 0): listModifiedProfits[outputType] = 0
+
+        if (sum(listModifiedProfits) <= 0): listModifiedProfits = [1.0] * NUM_GOOD_TYPES
 
         return listModifiedProfits
 
     def chooseOutputType(self, listProfits: list[float]):
         listModifiedProfits = self.modifyProfits(listProfits)
-        return random.choices(range(NUM_MARKET_TYPES), listModifiedProfits)
+        return random.choices(range(NUM_GOOD_TYPES), listModifiedProfits)[0]
 
     def createNewFirm(self, outputType: int):
         self.ownsFirm = True
         self.ownedFirmType = outputType
-        investment = self.funds * (1 - SAVINGS_RATE)
+        investment = self.funds * INVESTMENT_RATE
         self.funds -= investment
         return investment
 
     def priceLabour(self, baseWage: float):
         sigma = baseWage * WAGE_NORM_STD_DEV
-        return random.normalvariate(baseWage, sigma)
+        wage = random.normalvariate(baseWage, sigma)
+        if (wage <= PRICE_FLOOR): wage = PRICE_FLOOR
+        return wage
 
     def chooseOutput(self, listProfits: list[float]):
 
@@ -66,5 +82,82 @@ class Pop():
 
         return [self.id, outputType, firmExists, price]
 
+    def getOwnsFirm(self):
+
+        return self.ownsFirm
+
+    def getOwnedFirmType(self):
+
+        return self.ownedFirmType
+
+    def getId(self):
+
+        return self.id
+
+    def receiveIncome(self, income: float):
+
+        self.currIncome = income
+        self.funds += income
+
+    def utilityFunction(self, bundle: list[int]):
+
+        produceUtility = math.sqrt(self.producePreference * bundle[TYPE_PRODUCE])
+        servicesUtility = math.sqrt(self.servicesPreference * (bundle[TYPE_SERVICES] + 1))
+        return produceUtility * servicesUtility
+
+    def getMargUtility(self):
+
+        listMU: list[float] = [0] * NUM_GOOD_TYPES
+        currBundle = self.currBundle
+        currUtility: float = self.utilityFunction(currBundle)
+        for goodType in range(NUM_GOOD_TYPES):
+            newBundle = currBundle.copy()
+            newBundle[goodType] += 1
+            newUtility: float = self.utilityFunction(newBundle)
+            listMU[goodType] = newUtility - currUtility
+        return listMU
+
+    def getMargUtilityRatio(self, listMenu: list[float]):
+
+        listMU = self.getMargUtility()
+        listMUP = [0] * NUM_GOOD_TYPES
+        for goodType in range(NUM_GOOD_TYPES):
+            listMUP[goodType] = listMU[goodType] / listMenu[goodType]
+        return listMUP
+
+    def canAfford(self, budget: float, spent: float, typeChoice: int, marketManager: MarketManager):
+
+        remaining: float = budget - spent
+        price = marketManager.lowestPriceAvailable(typeChoice)
+        return (remaining >= price)
+
+    def consumeGoods(self, marketManager: MarketManager):
+
+        budget: float = self.funds * (1 - SAVINGS_RATE)
+        spent: float = 0.0
+
+        while (True):
+
+            listMenu = marketManager.getMenu()
+            listMUP = self.getMargUtilityRatio(listMenu)
+            typeChoice = np.argmax(listMUP)
+            
+            if (listMUP[typeChoice] > 0) & self.canAfford(budget, spent, typeChoice, marketManager): 
+                spent += marketManager.buyGood(typeChoice)
+                self.currBundle[typeChoice] += 1
+            else: break
+
+        self.funds -= spent
+
+    def settle(self):
+
+        self.currIncome = 0
+        self.currBundle = [0] * NUM_GOOD_TYPES
+
+    def closeOwnedFirm(self, firmFunds: float):
+
+        self.funds += firmFunds
+        self.ownsFirm = False
+        self.ownedFirmType = -1
         
 

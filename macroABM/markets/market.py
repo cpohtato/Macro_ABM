@@ -44,13 +44,17 @@ class Market():
     def estimateCompetitiveWage(self):
         
         if (self.prevNumSellers > 0):
-            clearanceRatio: float = float(self.prevNumTrades) / float(self.prevNumSupplied)
+            clearanceRatio = self.getClearanceRatio()
             if (clearanceRatio >= EMPLOYMENT_RATE): return (self.prevAvgTradedPrice * (1 + WAGE_VISCOSITY))
-            else: return (self.prevAvgTradedPrice * (1 - WAGE_VISCOSITY))
+            else:
+                self.prevAvgTradedPrice *= (1 - WAGE_VISCOSITY) 
+                wage = self.prevAvgTradedPrice
         else:
             #   TODO: remember to carry prevAvgTradedPrice from last tick if no trades occur in current tick in settlement
             self.prevAvgTradedPrice *= (1 + WAGE_VISCOSITY)
-            return self.prevAvgTradedPrice
+            wage = self.prevAvgTradedPrice
+        if (wage < PRICE_FLOOR): wage = PRICE_FLOOR
+        return wage
 
     def estimateExistingMarketROI(self):
         totalProfit = self.prevTotalRevenue - self.prevFundsInvested
@@ -78,4 +82,123 @@ class Market():
         else: return self.estimateFirmROI()
 
     def createSellOrder(self, id: int, price: float, qty: int, cost: float):
+
         self.listSellOrders.append(SellOrder(id, price, qty, cost))
+
+    def getPrevHighestTradedPrice(self):
+
+        return self.prevHighestTradedPrice
+
+    def getPrevAvgTradedPrice(self):
+
+        return self.prevAvgTradedPrice
+
+    def getClearanceRatio(self):
+
+        if (self.prevNumSupplied > 0): return float(self.prevNumTrades) / float(self.prevNumSupplied)
+        else: return 1.0
+
+    def searchLowestAvailablePrice(self):
+
+        lowestPrice: float = -1.0
+        lowestPriceIndex: int = -1
+
+        for index in range(len(self.listSellOrders)):
+            if (self.listSellOrders[index].unitsAvailable() & 
+                ((self.listSellOrders[index].getPrice() < lowestPrice) | 
+                (lowestPrice == -1.0))):
+                    lowestPrice = self.listSellOrders[index].getPrice()
+                    lowestPriceIndex = index
+
+        return lowestPrice, lowestPriceIndex
+
+    def getLowestAvailablePrice(self):
+
+        if (len(self.listSellOrders) > 0): return self.searchLowestAvailablePrice()
+        return -1.0, -1
+
+    def buyLowest(self):
+
+        lowestPrice, lowestPriceIndex = self.searchLowestAvailablePrice()
+        self.listSellOrders[lowestPriceIndex].makePurchase() 
+        return lowestPrice
+
+    def searchAvailableGoods(self):
+
+        for sellOrder in self.listSellOrders:
+            if (sellOrder.unitsAvailable()): return True
+        return False
+
+    def checkIfAvailable(self):
+
+        if (len(self.listSellOrders) > 0): return self.searchAvailableGoods()
+        return False
+
+    def payRevenue(self, id: int):
+
+        for order in self.listSellOrders: 
+            if (id == order.getId()): return order.getTotalRevenue()
+        return 0.0
+
+    def getTotalSupply(self):
+
+        sum: int = 0
+        for sellOrder in self.listSellOrders:
+            sum += sellOrder.getQtySupplied()
+        return sum
+
+    def getTotalCosts(self):
+
+        sum: float = 0.0
+        for sellOrder in self.listSellOrders:
+            sum += sellOrder.getCost()
+        return sum
+
+    def getTotalSold(self):
+
+        sum: int = 0
+        for sellOrder in self.listSellOrders:
+            sum += sellOrder.getQtySold()
+        return sum
+
+    def getTotalRevenue(self):
+
+        sum: float = 0.0
+        for sellOrder in self.listSellOrders:
+            sum += sellOrder.getTotalRevenue()
+        return sum
+
+    def getAvgTradedPrice(self):
+
+        if (self.prevNumTrades > 0): return self.prevTotalRevenue / self.prevNumTrades
+        return self.prevAvgTradedPrice
+
+    def findHighestTradedPrice(self):
+
+        highestTradedPrice: float = -1.0
+        for sellOrder in self.listSellOrders:
+            if ((sellOrder.getQtySold() > 0) & (sellOrder.getPrice() > highestTradedPrice)): 
+                highestTradedPrice = sellOrder.getPrice()
+        return highestTradedPrice
+
+    def settle(self):
+
+        #   Like this for readability not efficiency
+        self.prevNumSellers = len(self.listSellOrders)
+        self.prevNumSupplied = self.getTotalSupply()
+        self.prevFundsInvested = self.getTotalCosts()
+        self.prevNumTrades = self.getTotalSold()
+        self.prevTotalRevenue = self.getTotalRevenue()
+
+        self.prevAvgTradedPrice = self.getAvgTradedPrice()
+        self.prevHighestTradedPrice = self.findHighestTradedPrice()
+
+        self.listSellOrders = []
+
+    def getMarketType(self):
+
+        return self.marketType
+
+    def getPrevNumTrades(self):
+
+        return self.prevNumTrades
