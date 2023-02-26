@@ -2,7 +2,7 @@ from ..utils import *
 from ..markets.marketManager import *
 
 PRICE_VISCOSITY = 0.05
-PRICE_STD_DEV = 0.08
+PRICE_STD_DEV = 0.05
 STD_DEV_FOR_90_PERCENT_CLEARANCE = 1.28
 
 LABOUR_PROD_MEAN = 1.0
@@ -10,7 +10,7 @@ LABOUR_PROD_STD_DEV = 0.05
 CAPITAL_PROD_MEAN = 1.0
 CAPITAL_PROD_STD_DEV = 0.05
 
-MARKUP_FACTOR = 1.5
+MARKUP_FACTOR = 1.1
 
 class Firm():
 
@@ -57,17 +57,16 @@ class Firm():
 
     def equilibriumPricing(self, highestTradedPrice: float, avgTradedPrice: float):
 
-        mu: float = highestTradedPrice
+        mu: float = (highestTradedPrice + avgTradedPrice) / 2
         sigma: float = avgTradedPrice * PRICE_STD_DEV
         newPrice: float = random.normalvariate(mu, sigma)
         newPrice = self.priceFloor(newPrice)
         return newPrice
 
-    def competitivePricing(self, highestTradedPrice: float, avgTradedPrice: float):
+    def competitivePricing(self, avgTradedPrice: float):
 
-        mu: float = (highestTradedPrice + avgTradedPrice) / 2
         sigma: float = avgTradedPrice * PRICE_STD_DEV
-        newPrice: float = random.normalvariate(mu, sigma)
+        newPrice: float = random.normalvariate(avgTradedPrice, sigma)
         newPrice = self.priceFloor(newPrice)
         return newPrice
 
@@ -82,7 +81,7 @@ class Firm():
         elif (marketClearanceRatio >= EQUILIBRIUM_CLEARANCE_RATE): 
             return self.equilibriumPricing(highestTradedPrice, avgTradedPrice)
         else: 
-            return self.competitivePricing(highestTradedPrice, avgTradedPrice)
+            return self.competitivePricing(avgTradedPrice)
 
     def reserveDividends(self):
 

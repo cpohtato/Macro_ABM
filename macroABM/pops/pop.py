@@ -2,7 +2,7 @@ from ..utils import *
 from ..markets.marketManager import *
 from ..firms.firmManager import *
 
-ENTREPRENEURIAL_RELUCTANCE = 0.4
+ENTREPRENEURIAL_RELUCTANCE = 0.1
 WAGE_NORM_STD_DEV = 0.05
 
 class Pop():
@@ -35,9 +35,6 @@ class Pop():
         for outputType in range(NUM_GOOD_TYPES):
             if outputType != TYPE_LABOUR: listModifiedProfits[outputType] = self.roiToProfit(listProfits[outputType])
             else: listModifiedProfits[outputType] *= LABOUR_PER_POP
-            if (listModifiedProfits[outputType] <= 0): listModifiedProfits[outputType] = 0
-
-        if (sum(listModifiedProfits) <= 0): listModifiedProfits = [1.0] * NUM_GOOD_TYPES
 
         return listModifiedProfits
 
@@ -54,9 +51,7 @@ class Pop():
 
     def priceLabour(self, baseWage: float):
         sigma = baseWage * WAGE_NORM_STD_DEV
-        wage = random.normalvariate(baseWage, sigma)
-        if (wage <= PRICE_FLOOR): wage = PRICE_FLOOR
-        return wage
+        return random.normalvariate(baseWage, sigma)
 
     def chooseOutput(self, listProfits: list[float]):
 

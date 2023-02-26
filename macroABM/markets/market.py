@@ -1,7 +1,7 @@
 from ..utils import *
 from .sellOrder import *
 
-WAGE_VISCOSITY = 0.03
+WAGE_VISCOSITY = 0.05
 GOOD_PROFIT_INCREASE = 0.05
 ESTIMATED_BASE_ROI = 0.5
 
@@ -46,15 +46,11 @@ class Market():
         if (self.prevNumSellers > 0):
             clearanceRatio = self.getClearanceRatio()
             if (clearanceRatio >= EMPLOYMENT_RATE): return (self.prevAvgTradedPrice * (1 + WAGE_VISCOSITY))
-            else:
-                self.prevAvgTradedPrice *= (1 - WAGE_VISCOSITY) 
-                wage = self.prevAvgTradedPrice
+            else: return (self.prevAvgTradedPrice)
         else:
             #   TODO: remember to carry prevAvgTradedPrice from last tick if no trades occur in current tick in settlement
             self.prevAvgTradedPrice *= (1 + WAGE_VISCOSITY)
-            wage = self.prevAvgTradedPrice
-        if (wage < PRICE_FLOOR): wage = PRICE_FLOOR
-        return wage
+            return self.prevAvgTradedPrice
 
     def estimateExistingMarketROI(self):
         totalProfit = self.prevTotalRevenue - self.prevFundsInvested
