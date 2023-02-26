@@ -1,350 +1,700 @@
 ========================= MONTH 0 =========================
 
-Labour: 60 sold @ $0.97 ea. avg.
-Produce: 118 sold @ $1.13 ea. avg.
-Services: 76 sold @ $1.11 ea. avg.
+Labour: 112 sold @ $0.92 ea. avg.
+Produce: 503 sold @ $1.16 ea. avg.
+Services: 314 sold @ $1.15 ea. avg.
 
 
 ========================= MONTH 1 =========================
 
-Labour: 50 sold @ $0.96 ea. avg.
-Produce: 42 sold @ $1.00 ea. avg.
-Services: 19 sold @ $1.07 ea. avg.
+Labour: 1344 sold @ $0.87 ea. avg.
+Produce: 954 sold @ $1.22 ea. avg.
+Services: 847 sold @ $1.06 ea. avg.
 
 
 ========================= MONTH 2 =========================
 
-Labour: 50 sold @ $1.01 ea. avg.
-Produce: 75 sold @ $0.89 ea. avg.
-Services: 26 sold @ $0.97 ea. avg.
+Labour: 1503 sold @ $0.83 ea. avg.
+Produce: 871 sold @ $1.16 ea. avg.
+Services: 706 sold @ $1.00 ea. avg.
 
 
 ========================= MONTH 3 =========================
 
-Labour: 50 sold @ $1.06 ea. avg.
-Produce: 61 sold @ $0.77 ea. avg.
-Services: 33 sold @ $0.90 ea. avg.
+Labour: 1588 sold @ $0.80 ea. avg.
+Produce: 909 sold @ $1.07 ea. avg.
+Services: 672 sold @ $0.95 ea. avg.
 
 
 ========================= MONTH 4 =========================
 
-Labour: 30 sold @ $1.16 ea. avg.
-Produce: 69 sold @ $0.69 ea. avg.
-Services: 27 sold @ $0.81 ea. avg.
+Labour: 1657 sold @ $0.76 ea. avg.
+Produce: 982 sold @ $0.99 ea. avg.
+Services: 740 sold @ $0.88 ea. avg.
 
 
 ========================= MONTH 5 =========================
 
-Labour: 30 sold @ $1.21 ea. avg.
-Produce: 71 sold @ $0.61 ea. avg.
-Services: 32 sold @ $0.72 ea. avg.
+Labour: 1736 sold @ $0.73 ea. avg.
+Produce: 1023 sold @ $0.93 ea. avg.
+Services: 794 sold @ $0.82 ea. avg.
 
 
 ========================= MONTH 6 =========================
 
-Labour: 44 sold @ $1.20 ea. avg.
-Produce: 87 sold @ $0.53 ea. avg.
-Services: 44 sold @ $0.65 ea. avg.
+Labour: 1780 sold @ $0.70 ea. avg.
+Produce: 1065 sold @ $0.87 ea. avg.
+Services: 841 sold @ $0.77 ea. avg.
 
 
 ========================= MONTH 7 =========================
 
-Labour: 28 sold @ $1.07 ea. avg.
-Produce: 100 sold @ $0.48 ea. avg.
-Services: 37 sold @ $0.62 ea. avg.
+Labour: 1697 sold @ $0.67 ea. avg.
+Produce: 1121 sold @ $0.81 ea. avg.
+Services: 864 sold @ $0.72 ea. avg.
 
 
 ========================= MONTH 8 =========================
 
-Labour: 31 sold @ $0.99 ea. avg.
-Produce: 88 sold @ $0.43 ea. avg.
-Services: 35 sold @ $0.61 ea. avg.
+Labour: 1517 sold @ $0.64 ea. avg.
+Produce: 1099 sold @ $0.76 ea. avg.
+Services: 862 sold @ $0.68 ea. avg.
 
 
 ========================= MONTH 9 =========================
 
-Labour: 41 sold @ $0.92 ea. avg.
-Produce: 91 sold @ $0.40 ea. avg.
-Services: 36 sold @ $0.58 ea. avg.
+Labour: 1496 sold @ $0.60 ea. avg.
+Produce: 1088 sold @ $0.72 ea. avg.
+Services: 852 sold @ $0.64 ea. avg.
 
 
 ========================= MONTH 10 =========================
 
-Labour: 30 sold @ $0.84 ea. avg.
-Produce: 86 sold @ $0.38 ea. avg.
-Services: 29 sold @ $0.57 ea. avg.
+Labour: 1473 sold @ $0.57 ea. avg.
+Produce: 1101 sold @ $0.68 ea. avg.
+Services: 863 sold @ $0.59 ea. avg.
 
 
 ========================= MONTH 11 =========================
 
-Labour: 27 sold @ $0.79 ea. avg.
-Produce: 82 sold @ $0.36 ea. avg.
-Services: 27 sold @ $0.55 ea. avg.
+Labour: 1479 sold @ $0.55 ea. avg.
+Produce: 1103 sold @ $0.65 ea. avg.
+Services: 875 sold @ $0.56 ea. avg.
 
 
 ========================= MONTH 12 =========================
 
-Labour: 38 sold @ $0.74 ea. avg.
-Produce: 84 sold @ $0.33 ea. avg.
-Services: 27 sold @ $0.53 ea. avg.
+Labour: 1515 sold @ $0.52 ea. avg.
+Produce: 1146 sold @ $0.61 ea. avg.
+Services: 919 sold @ $0.52 ea. avg.
 
 
 ========================= MONTH 13 =========================
 
-Labour: 24 sold @ $0.68 ea. avg.
-Produce: 94 sold @ $0.29 ea. avg.
-Services: 26 sold @ $0.49 ea. avg.
+Labour: 1553 sold @ $0.49 ea. avg.
+Produce: 1193 sold @ $0.57 ea. avg.
+Services: 936 sold @ $0.51 ea. avg.
 
 
 ========================= MONTH 14 =========================
 
-Labour: 25 sold @ $0.62 ea. avg.
-Produce: 91 sold @ $0.27 ea. avg.
-Services: 27 sold @ $0.45 ea. avg.
+Labour: 1552 sold @ $0.46 ea. avg.
+Produce: 1212 sold @ $0.54 ea. avg.
+Services: 969 sold @ $0.49 ea. avg.
 
 
 ========================= MONTH 15 =========================
 
-Labour: 29 sold @ $0.56 ea. avg.
-Produce: 92 sold @ $0.25 ea. avg.
-Services: 26 sold @ $0.42 ea. avg.
+Labour: 1625 sold @ $0.44 ea. avg.
+Produce: 1247 sold @ $0.51 ea. avg.
+Services: 1012 sold @ $0.46 ea. avg.
 
 
 ========================= MONTH 16 =========================
 
-Labour: 28 sold @ $0.52 ea. avg.
-Produce: 85 sold @ $0.22 ea. avg.
-Services: 25 sold @ $0.38 ea. avg.
+Labour: 1628 sold @ $0.42 ea. avg.
+Produce: 1269 sold @ $0.49 ea. avg.
+Services: 1054 sold @ $0.44 ea. avg.
 
 
 ========================= MONTH 17 =========================
 
-Labour: 20 sold @ $0.47 ea. avg.
-Produce: 88 sold @ $0.20 ea. avg.
-Services: 22 sold @ $0.37 ea. avg.
+Labour: 1679 sold @ $0.40 ea. avg.
+Produce: 1317 sold @ $0.47 ea. avg.
+Services: 1102 sold @ $0.41 ea. avg.
 
 
 ========================= MONTH 18 =========================
 
-Labour: 20 sold @ $0.43 ea. avg.
-Produce: 90 sold @ $0.18 ea. avg.
-Services: 17 sold @ $0.37 ea. avg.
+Labour: 1661 sold @ $0.38 ea. avg.
+Produce: 1365 sold @ $0.45 ea. avg.
+Services: 1139 sold @ $0.39 ea. avg.
 
 
 ========================= MONTH 19 =========================
 
-Labour: 30 sold @ $0.38 ea. avg.
-Produce: 115 sold @ $0.16 ea. avg.
-Services: 24 sold @ $0.36 ea. avg.
+Labour: 1574 sold @ $0.36 ea. avg.
+Produce: 1400 sold @ $0.43 ea. avg.
+Services: 1178 sold @ $0.37 ea. avg.
 
 
 ========================= MONTH 20 =========================
 
-Labour: 39 sold @ $0.34 ea. avg.
-Produce: 100 sold @ $0.16 ea. avg.
-Services: 19 sold @ $0.35 ea. avg.
+Labour: 1529 sold @ $0.34 ea. avg.
+Produce: 1385 sold @ $0.41 ea. avg.
+Services: 1190 sold @ $0.35 ea. avg.
 
 
 ========================= MONTH 21 =========================
 
-Labour: 40 sold @ $0.31 ea. avg.
-Produce: 108 sold @ $0.15 ea. avg.
-Services: 19 sold @ $0.34 ea. avg.
+Labour: 1558 sold @ $0.32 ea. avg.
+Produce: 1382 sold @ $0.39 ea. avg.
+Services: 1164 sold @ $0.35 ea. avg.
 
 
 ========================= MONTH 22 =========================
 
-Labour: 34 sold @ $0.29 ea. avg.
-Produce: 115 sold @ $0.13 ea. avg.
-Services: 18 sold @ $0.32 ea. avg.
+Labour: 1599 sold @ $0.31 ea. avg.
+Produce: 1402 sold @ $0.37 ea. avg.
+Services: 1201 sold @ $0.33 ea. avg.
 
 
 ========================= MONTH 23 =========================
 
-Labour: 37 sold @ $0.27 ea. avg.
-Produce: 118 sold @ $0.12 ea. avg.
-Services: 17 sold @ $0.29 ea. avg.
+Labour: 1708 sold @ $0.29 ea. avg.
+Produce: 1421 sold @ $0.36 ea. avg.
+Services: 1224 sold @ $0.32 ea. avg.
 
 
 ========================= MONTH 24 =========================
 
-Labour: 40 sold @ $0.25 ea. avg.
-Produce: 108 sold @ $0.12 ea. avg.
-Services: 16 sold @ $0.28 ea. avg.
+Labour: 1857 sold @ $0.28 ea. avg.
+Produce: 1478 sold @ $0.34 ea. avg.
+Services: 1294 sold @ $0.31 ea. avg.
 
 
 ========================= MONTH 25 =========================
 
-Labour: 47 sold @ $0.23 ea. avg.
-Produce: 104 sold @ $0.12 ea. avg.
-Services: 22 sold @ $0.24 ea. avg.
+Labour: 1752 sold @ $0.26 ea. avg.
+Produce: 1725 sold @ $0.34 ea. avg.
+Services: 1536 sold @ $0.30 ea. avg.
 
 
 ========================= MONTH 26 =========================
 
-Labour: 56 sold @ $0.21 ea. avg.
-Produce: 124 sold @ $0.11 ea. avg.
-Services: 24 sold @ $0.23 ea. avg.
+Labour: 1817 sold @ $0.25 ea. avg.
+Produce: 1700 sold @ $0.33 ea. avg.
+Services: 1542 sold @ $0.29 ea. avg.
 
 
 ========================= MONTH 27 =========================
 
-Labour: 51 sold @ $0.20 ea. avg.
-Produce: 123 sold @ $0.10 ea. avg.
-Services: 22 sold @ $0.21 ea. avg.
+Labour: 1778 sold @ $0.24 ea. avg.
+Produce: 1908 sold @ $0.32 ea. avg.
+Services: 1782 sold @ $0.28 ea. avg.
 
 
 ========================= MONTH 28 =========================
 
-Labour: 50 sold @ $0.19 ea. avg.
-Produce: 111 sold @ $0.10 ea. avg.
-Services: 21 sold @ $0.21 ea. avg.
+Labour: 1784 sold @ $0.23 ea. avg.
+Produce: 2179 sold @ $0.31 ea. avg.
+Services: 2069 sold @ $0.28 ea. avg.
 
 
 ========================= MONTH 29 =========================
 
-Labour: 70 sold @ $0.17 ea. avg.
-Produce: 105 sold @ $0.10 ea. avg.
-Services: 26 sold @ $0.21 ea. avg.
+Labour: 2103 sold @ $0.22 ea. avg.
+Produce: 1975 sold @ $0.31 ea. avg.
+Services: 1898 sold @ $0.26 ea. avg.
 
 
 ========================= MONTH 30 =========================
 
-Labour: 89 sold @ $0.16 ea. avg.
-Produce: 114 sold @ $0.10 ea. avg.
-Services: 24 sold @ $0.19 ea. avg.
+Labour: 2318 sold @ $0.21 ea. avg.
+Produce: 2029 sold @ $0.30 ea. avg.
+Services: 1985 sold @ $0.25 ea. avg.
 
 
 ========================= MONTH 31 =========================
 
-Labour: 84 sold @ $0.15 ea. avg.
-Produce: 101 sold @ $0.10 ea. avg.
-Services: 36 sold @ $0.18 ea. avg.
+Labour: 2693 sold @ $0.21 ea. avg.
+Produce: 2244 sold @ $0.29 ea. avg.
+Services: 2178 sold @ $0.25 ea. avg.
 
 
 ========================= MONTH 32 =========================
 
-Labour: 112 sold @ $0.14 ea. avg.
-Produce: 114 sold @ $0.10 ea. avg.
-Services: 35 sold @ $0.17 ea. avg.
+Labour: 2709 sold @ $0.20 ea. avg.
+Produce: 2325 sold @ $0.28 ea. avg.
+Services: 2246 sold @ $0.24 ea. avg.
 
 
 ========================= MONTH 33 =========================
 
-Labour: 90 sold @ $0.13 ea. avg.
-Produce: 107 sold @ $0.10 ea. avg.
-Services: 34 sold @ $0.15 ea. avg.
+Labour: 3024 sold @ $0.19 ea. avg.
+Produce: 2243 sold @ $0.27 ea. avg.
+Services: 2144 sold @ $0.24 ea. avg.
 
 
 ========================= MONTH 34 =========================
 
-Labour: 96 sold @ $0.12 ea. avg.
-Produce: 106 sold @ $0.10 ea. avg.
-Services: 30 sold @ $0.15 ea. avg.
+Labour: 2800 sold @ $0.19 ea. avg.
+Produce: 2477 sold @ $0.26 ea. avg.
+Services: 2416 sold @ $0.23 ea. avg.
 
 
 ========================= MONTH 35 =========================
 
-Labour: 129 sold @ $0.11 ea. avg.
-Produce: 107 sold @ $0.10 ea. avg.
-Services: 42 sold @ $0.14 ea. avg.
+Labour: 2829 sold @ $0.19 ea. avg.
+Produce: 2662 sold @ $0.25 ea. avg.
+Services: 2603 sold @ $0.22 ea. avg.
 
 
 ========================= MONTH 36 =========================
 
-Labour: 151 sold @ $0.11 ea. avg.
-Produce: 107 sold @ $0.10 ea. avg.
-Services: 42 sold @ $0.13 ea. avg.
+Labour: 3027 sold @ $0.18 ea. avg.
+Produce: 2451 sold @ $0.25 ea. avg.
+Services: 2385 sold @ $0.21 ea. avg.
 
 
 ========================= MONTH 37 =========================
 
-Labour: 95 sold @ $0.10 ea. avg.
-Produce: 93 sold @ $0.10 ea. avg.
-Services: 39 sold @ $0.12 ea. avg.
+Labour: 2875 sold @ $0.18 ea. avg.
+Produce: 2609 sold @ $0.24 ea. avg.
+Services: 2574 sold @ $0.21 ea. avg.
 
 
 ========================= MONTH 38 =========================
 
-Labour: 157 sold @ $0.10 ea. avg.
-Produce: 96 sold @ $0.10 ea. avg.
-Services: 44 sold @ $0.11 ea. avg.
+Labour: 2822 sold @ $0.17 ea. avg.
+Produce: 2658 sold @ $0.23 ea. avg.
+Services: 2663 sold @ $0.20 ea. avg.
 
 
 ========================= MONTH 39 =========================
 
-Labour: 136 sold @ $0.09 ea. avg.
-Produce: 95 sold @ $0.10 ea. avg.
-Services: 44 sold @ $0.10 ea. avg.
+Labour: 2886 sold @ $0.17 ea. avg.
+Produce: 2705 sold @ $0.23 ea. avg.
+Services: 2758 sold @ $0.19 ea. avg.
 
 
 ========================= MONTH 40 =========================
 
-Labour: 127 sold @ $0.09 ea. avg.
-Produce: 94 sold @ $0.10 ea. avg.
-Services: 44 sold @ $0.10 ea. avg.
+Labour: 2795 sold @ $0.17 ea. avg.
+Produce: 2991 sold @ $0.22 ea. avg.
+Services: 3030 sold @ $0.19 ea. avg.
 
 
 ========================= MONTH 41 =========================
 
-Labour: 134 sold @ $0.09 ea. avg.
-Produce: 84 sold @ $0.10 ea. avg.
-Services: 45 sold @ $0.10 ea. avg.
+Labour: 3031 sold @ $0.16 ea. avg.
+Produce: 3134 sold @ $0.22 ea. avg.
+Services: 3221 sold @ $0.18 ea. avg.
 
 
 ========================= MONTH 42 =========================
 
-Labour: 126 sold @ $0.08 ea. avg.
-Produce: 84 sold @ $0.10 ea. avg.
-Services: 38 sold @ $0.10 ea. avg.
+Labour: 3117 sold @ $0.16 ea. avg.
+Produce: 3099 sold @ $0.21 ea. avg.
+Services: 3194 sold @ $0.18 ea. avg.
 
 
 ========================= MONTH 43 =========================
 
-Labour: 116 sold @ $0.08 ea. avg.
-Produce: 71 sold @ $0.10 ea. avg.
-Services: 39 sold @ $0.10 ea. avg.
+Labour: 3063 sold @ $0.16 ea. avg.
+Produce: 3129 sold @ $0.21 ea. avg.
+Services: 3251 sold @ $0.17 ea. avg.
 
 
 ========================= MONTH 44 =========================
 
-Labour: 126 sold @ $0.07 ea. avg.
-Produce: 67 sold @ $0.10 ea. avg.
-Services: 41 sold @ $0.10 ea. avg.
+Labour: 3046 sold @ $0.16 ea. avg.
+Produce: 2870 sold @ $0.20 ea. avg.
+Services: 2914 sold @ $0.17 ea. avg.
 
 
 ========================= MONTH 45 =========================
 
-Labour: 124 sold @ $0.07 ea. avg.
-Produce: 82 sold @ $0.10 ea. avg.
-Services: 26 sold @ $0.10 ea. avg.
+Labour: 3006 sold @ $0.15 ea. avg.
+Produce: 3334 sold @ $0.20 ea. avg.
+Services: 3475 sold @ $0.16 ea. avg.
 
 
 ========================= MONTH 46 =========================
 
-Labour: 128 sold @ $0.07 ea. avg.
-Produce: 68 sold @ $0.10 ea. avg.
-Services: 31 sold @ $0.10 ea. avg.
+Labour: 2954 sold @ $0.15 ea. avg.
+Produce: 3137 sold @ $0.19 ea. avg.
+Services: 3234 sold @ $0.16 ea. avg.
 
 
 ========================= MONTH 47 =========================
 
-Labour: 147 sold @ $0.06 ea. avg.
-Produce: 64 sold @ $0.10 ea. avg.
-Services: 30 sold @ $0.10 ea. avg.
+Labour: 2770 sold @ $0.15 ea. avg.
+Produce: 3795 sold @ $0.19 ea. avg.
+Services: 4056 sold @ $0.15 ea. avg.
 
 
 ========================= MONTH 48 =========================
 
-Labour: 124 sold @ $0.06 ea. avg.
-Produce: 60 sold @ $0.10 ea. avg.
-Services: 27 sold @ $0.10 ea. avg.
+Labour: 3258 sold @ $0.14 ea. avg.
+Produce: 3313 sold @ $0.18 ea. avg.
+Services: 3437 sold @ $0.15 ea. avg.
 
 
 ========================= MONTH 49 =========================
 
-Labour: 125 sold @ $0.06 ea. avg.
-Produce: 62 sold @ $0.10 ea. avg.
-Services: 21 sold @ $0.10 ea. avg.
+Labour: 2718 sold @ $0.15 ea. avg.
+Produce: 3474 sold @ $0.17 ea. avg.
+Services: 3549 sold @ $0.15 ea. avg.
+
+
+========================= MONTH 50 =========================
+
+Labour: 2926 sold @ $0.15 ea. avg.
+Produce: 3201 sold @ $0.17 ea. avg.
+Services: 3167 sold @ $0.14 ea. avg.
+
+
+========================= MONTH 51 =========================
+
+Labour: 2648 sold @ $0.14 ea. avg.
+Produce: 3838 sold @ $0.16 ea. avg.
+Services: 3896 sold @ $0.14 ea. avg.
+
+
+========================= MONTH 52 =========================
+
+Labour: 2681 sold @ $0.14 ea. avg.
+Produce: 3839 sold @ $0.16 ea. avg.
+Services: 3886 sold @ $0.14 ea. avg.
+
+
+========================= MONTH 53 =========================
+
+Labour: 2697 sold @ $0.14 ea. avg.
+Produce: 3729 sold @ $0.15 ea. avg.
+Services: 3743 sold @ $0.13 ea. avg.
+
+
+========================= MONTH 54 =========================
+
+Labour: 2542 sold @ $0.13 ea. avg.
+Produce: 4264 sold @ $0.15 ea. avg.
+Services: 4393 sold @ $0.13 ea. avg.
+
+
+========================= MONTH 55 =========================
+
+Labour: 2900 sold @ $0.13 ea. avg.
+Produce: 3968 sold @ $0.15 ea. avg.
+Services: 3872 sold @ $0.13 ea. avg.
+
+
+========================= MONTH 56 =========================
+
+Labour: 2952 sold @ $0.13 ea. avg.
+Produce: 4069 sold @ $0.14 ea. avg.
+Services: 3960 sold @ $0.13 ea. avg.
+
+
+========================= MONTH 57 =========================
+
+Labour: 3030 sold @ $0.13 ea. avg.
+Produce: 3875 sold @ $0.14 ea. avg.
+Services: 3722 sold @ $0.13 ea. avg.
+
+
+========================= MONTH 58 =========================
+
+Labour: 2981 sold @ $0.13 ea. avg.
+Produce: 4169 sold @ $0.14 ea. avg.
+Services: 4101 sold @ $0.13 ea. avg.
+
+
+========================= MONTH 59 =========================
+
+Labour: 2816 sold @ $0.12 ea. avg.
+Produce: 4423 sold @ $0.13 ea. avg.
+Services: 4349 sold @ $0.12 ea. avg.
+
+
+========================= MONTH 60 =========================
+
+Labour: 2796 sold @ $0.12 ea. avg.
+Produce: 4448 sold @ $0.13 ea. avg.
+Services: 4414 sold @ $0.12 ea. avg.
+
+
+========================= MONTH 61 =========================
+
+Labour: 2887 sold @ $0.12 ea. avg.
+Produce: 4326 sold @ $0.13 ea. avg.
+Services: 4292 sold @ $0.12 ea. avg.
+
+
+========================= MONTH 62 =========================
+
+Labour: 2819 sold @ $0.12 ea. avg.
+Produce: 4348 sold @ $0.12 ea. avg.
+Services: 4294 sold @ $0.11 ea. avg.
+
+
+========================= MONTH 63 =========================
+
+Labour: 2879 sold @ $0.12 ea. avg.
+Produce: 4208 sold @ $0.12 ea. avg.
+Services: 4117 sold @ $0.11 ea. avg.
+
+
+========================= MONTH 64 =========================
+
+Labour: 2684 sold @ $0.11 ea. avg.
+Produce: 4480 sold @ $0.12 ea. avg.
+Services: 4474 sold @ $0.11 ea. avg.
+
+
+========================= MONTH 65 =========================
+
+Labour: 2615 sold @ $0.11 ea. avg.
+Produce: 4643 sold @ $0.12 ea. avg.
+Services: 4658 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 66 =========================
+
+Labour: 2557 sold @ $0.11 ea. avg.
+Produce: 4969 sold @ $0.11 ea. avg.
+Services: 5001 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 67 =========================
+
+Labour: 2626 sold @ $0.11 ea. avg.
+Produce: 5092 sold @ $0.11 ea. avg.
+Services: 5087 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 68 =========================
+
+Labour: 2944 sold @ $0.11 ea. avg.
+Produce: 4733 sold @ $0.11 ea. avg.
+Services: 4819 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 69 =========================
+
+Labour: 2886 sold @ $0.11 ea. avg.
+Produce: 4959 sold @ $0.11 ea. avg.
+Services: 4977 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 70 =========================
+
+Labour: 3031 sold @ $0.10 ea. avg.
+Produce: 4655 sold @ $0.11 ea. avg.
+Services: 4484 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 71 =========================
+
+Labour: 2613 sold @ $0.11 ea. avg.
+Produce: 4691 sold @ $0.11 ea. avg.
+Services: 4484 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 72 =========================
+
+Labour: 2579 sold @ $0.10 ea. avg.
+Produce: 5217 sold @ $0.10 ea. avg.
+Services: 4971 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 73 =========================
+
+Labour: 2609 sold @ $0.10 ea. avg.
+Produce: 5664 sold @ $0.10 ea. avg.
+Services: 5335 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 74 =========================
+
+Labour: 2915 sold @ $0.10 ea. avg.
+Produce: 5472 sold @ $0.11 ea. avg.
+Services: 5131 sold @ $0.11 ea. avg.
+
+
+========================= MONTH 75 =========================
+
+Labour: 3246 sold @ $0.10 ea. avg.
+Produce: 4887 sold @ $0.11 ea. avg.
+Services: 4687 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 76 =========================
+
+Labour: 2715 sold @ $0.11 ea. avg.
+Produce: 5221 sold @ $0.11 ea. avg.
+Services: 5003 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 77 =========================
+
+Labour: 2979 sold @ $0.10 ea. avg.
+Produce: 4862 sold @ $0.10 ea. avg.
+Services: 4489 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 78 =========================
+
+Labour: 2534 sold @ $0.11 ea. avg.
+Produce: 4838 sold @ $0.10 ea. avg.
+Services: 4424 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 79 =========================
+
+Labour: 2573 sold @ $0.11 ea. avg.
+Produce: 5161 sold @ $0.10 ea. avg.
+Services: 4834 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 80 =========================
+
+Labour: 2762 sold @ $0.10 ea. avg.
+Produce: 5318 sold @ $0.10 ea. avg.
+Services: 4957 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 81 =========================
+
+Labour: 2820 sold @ $0.10 ea. avg.
+Produce: 5514 sold @ $0.10 ea. avg.
+Services: 5276 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 82 =========================
+
+Labour: 2877 sold @ $0.11 ea. avg.
+Produce: 4889 sold @ $0.11 ea. avg.
+Services: 4723 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 83 =========================
+
+Labour: 2385 sold @ $0.11 ea. avg.
+Produce: 5060 sold @ $0.10 ea. avg.
+Services: 4818 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 84 =========================
+
+Labour: 2573 sold @ $0.11 ea. avg.
+Produce: 4728 sold @ $0.10 ea. avg.
+Services: 4392 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 85 =========================
+
+Labour: 2480 sold @ $0.11 ea. avg.
+Produce: 5149 sold @ $0.10 ea. avg.
+Services: 4760 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 86 =========================
+
+Labour: 2518 sold @ $0.11 ea. avg.
+Produce: 5672 sold @ $0.10 ea. avg.
+Services: 5191 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 87 =========================
+
+Labour: 2700 sold @ $0.11 ea. avg.
+Produce: 5445 sold @ $0.10 ea. avg.
+Services: 5036 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 88 =========================
+
+Labour: 2591 sold @ $0.10 ea. avg.
+Produce: 6229 sold @ $0.10 ea. avg.
+Services: 5865 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 89 =========================
+
+Labour: 2900 sold @ $0.10 ea. avg.
+Produce: 4824 sold @ $0.10 ea. avg.
+Services: 4516 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 90 =========================
+
+Labour: 2711 sold @ $0.11 ea. avg.
+Produce: 4894 sold @ $0.10 ea. avg.
+Services: 4492 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 91 =========================
+
+Labour: 2342 sold @ $0.11 ea. avg.
+Produce: 4738 sold @ $0.10 ea. avg.
+Services: 4273 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 92 =========================
+
+Labour: 2371 sold @ $0.11 ea. avg.
+Produce: 5590 sold @ $0.10 ea. avg.
+Services: 5167 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 93 =========================
+
+Labour: 2580 sold @ $0.11 ea. avg.
+Produce: 5418 sold @ $0.10 ea. avg.
+Services: 4960 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 94 =========================
+
+Labour: 2716 sold @ $0.11 ea. avg.
+Produce: 5252 sold @ $0.10 ea. avg.
+Services: 4783 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 95 =========================
+
+Labour: 2441 sold @ $0.11 ea. avg.
+Produce: 5569 sold @ $0.10 ea. avg.
+Services: 5054 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 96 =========================
+
+Labour: 2589 sold @ $0.11 ea. avg.
+Produce: 5521 sold @ $0.10 ea. avg.
+Services: 4956 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 97 =========================
+
+Labour: 2733 sold @ $0.11 ea. avg.
+Produce: 4813 sold @ $0.10 ea. avg.
+Services: 4316 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 98 =========================
+
+Labour: 2358 sold @ $0.11 ea. avg.
+Produce: 5048 sold @ $0.10 ea. avg.
+Services: 4590 sold @ $0.10 ea. avg.
+
+
+========================= MONTH 99 =========================
+
+Labour: 2382 sold @ $0.11 ea. avg.
+Produce: 5451 sold @ $0.10 ea. avg.
+Services: 5047 sold @ $0.10 ea. avg.
 
 

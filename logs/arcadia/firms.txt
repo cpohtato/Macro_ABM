@@ -1,300 +1,600 @@
 ========================= MONTH 0 =========================
 
-Produce: 3 firms, avg. profit $37.72
-Services: 7 firms, avg. profit $5.27
+Produce: 8 firms, avg. profit $64.97
+Services: 8 firms, avg. profit $37.55
 
 
 ========================= MONTH 1 =========================
 
-Produce: 35 firms, avg. profit $-1.04
-Services: 10 firms, avg. profit $1.06
+Produce: 89 firms, avg. profit $2.25
+Services: 54 firms, avg. profit $6.41
 
 
 ========================= MONTH 2 =========================
 
-Produce: 35 firms, avg. profit $0.33
-Services: 10 firms, avg. profit $-0.16
+Produce: 90 firms, avg. profit $-0.05
+Services: 57 firms, avg. profit $-0.60
 
 
 ========================= MONTH 3 =========================
 
-Produce: 35 firms, avg. profit $-0.69
-Services: 10 firms, avg. profit $2.10
+Produce: 91 firms, avg. profit $-0.87
+Services: 58 firms, avg. profit $-3.00
 
 
 ========================= MONTH 4 =========================
 
-Produce: 35 firms, avg. profit $0.18
-Services: 12 firms, avg. profit $0.44
+Produce: 92 firms, avg. profit $-2.29
+Services: 58 firms, avg. profit $-1.69
 
 
 ========================= MONTH 5 =========================
 
-Produce: 34 firms, avg. profit $0.27
-Services: 9 firms, avg. profit $0.14
+Produce: 92 firms, avg. profit $-3.37
+Services: 57 firms, avg. profit $-1.95
 
 
 ========================= MONTH 6 =========================
 
-Produce: 10 firms, avg. profit $1.24
-Services: 6 firms, avg. profit $-0.08
+Produce: 58 firms, avg. profit $-5.75
+Services: 47 firms, avg. profit $-3.63
 
 
 ========================= MONTH 7 =========================
 
-Produce: 9 firms, avg. profit $2.88
-Services: 5 firms, avg. profit $0.05
+Produce: 55 firms, avg. profit $-3.24
+Services: 45 firms, avg. profit $-6.45
 
 
 ========================= MONTH 8 =========================
 
-Produce: 11 firms, avg. profit $1.74
-Services: 5 firms, avg. profit $-2.11
+Produce: 52 firms, avg. profit $-5.06
+Services: 43 firms, avg. profit $-3.28
 
 
 ========================= MONTH 9 =========================
 
-Produce: 15 firms, avg. profit $1.04
-Services: 4 firms, avg. profit $-4.85
+Produce: 48 firms, avg. profit $-5.10
+Services: 43 firms, avg. profit $-5.54
 
 
 ========================= MONTH 10 =========================
 
-Produce: 15 firms, avg. profit $0.70
-Services: 4 firms, avg. profit $-1.63
+Produce: 45 firms, avg. profit $-7.52
+Services: 42 firms, avg. profit $-4.59
 
 
 ========================= MONTH 11 =========================
 
-Produce: 15 firms, avg. profit $0.42
-Services: 4 firms, avg. profit $-0.92
+Produce: 44 firms, avg. profit $-9.54
+Services: 38 firms, avg. profit $-5.12
 
 
 ========================= MONTH 12 =========================
 
-Produce: 18 firms, avg. profit $-0.17
-Services: 4 firms, avg. profit $-1.98
+Produce: 42 firms, avg. profit $-10.72
+Services: 38 firms, avg. profit $-5.30
 
 
 ========================= MONTH 13 =========================
 
-Produce: 14 firms, avg. profit $0.79
-Services: 3 firms, avg. profit $-2.64
+Produce: 41 firms, avg. profit $-11.55
+Services: 39 firms, avg. profit $-6.15
 
 
 ========================= MONTH 14 =========================
 
-Produce: 13 firms, avg. profit $0.33
-Services: 3 firms, avg. profit $-1.70
+Produce: 39 firms, avg. profit $-12.28
+Services: 38 firms, avg. profit $-7.36
 
 
 ========================= MONTH 15 =========================
 
-Produce: 15 firms, avg. profit $-0.03
-Services: 3 firms, avg. profit $-2.45
+Produce: 40 firms, avg. profit $-13.41
+Services: 35 firms, avg. profit $-9.27
 
 
 ========================= MONTH 16 =========================
 
-Produce: 14 firms, avg. profit $-0.20
-Services: 3 firms, avg. profit $-2.58
+Produce: 39 firms, avg. profit $-12.97
+Services: 35 firms, avg. profit $-10.54
 
 
 ========================= MONTH 17 =========================
 
-Produce: 12 firms, avg. profit $0.32
-Services: 3 firms, avg. profit $-2.95
+Produce: 36 firms, avg. profit $-16.17
+Services: 35 firms, avg. profit $-10.16
 
 
 ========================= MONTH 18 =========================
 
-Produce: 11 firms, avg. profit $0.28
-Services: 2 firms, avg. profit $-4.79
+Produce: 34 firms, avg. profit $-17.20
+Services: 32 firms, avg. profit $-9.23
 
 
 ========================= MONTH 19 =========================
 
-Produce: 11 firms, avg. profit $-0.57
-Services: 2 firms, avg. profit $-2.48
+Produce: 33 firms, avg. profit $-17.62
+Services: 31 firms, avg. profit $-8.89
 
 
 ========================= MONTH 20 =========================
 
-Produce: 11 firms, avg. profit $-0.36
-Services: 4 firms, avg. profit $-5.38
+Produce: 34 firms, avg. profit $-18.12
+Services: 29 firms, avg. profit $-10.35
 
 
 ========================= MONTH 21 =========================
 
-Produce: 10 firms, avg. profit $-1.01
-Services: 4 firms, avg. profit $-2.81
+Produce: 33 firms, avg. profit $-18.66
+Services: 31 firms, avg. profit $-12.40
 
 
 ========================= MONTH 22 =========================
 
-Produce: 11 firms, avg. profit $-0.65
-Services: 4 firms, avg. profit $-3.25
+Produce: 33 firms, avg. profit $-17.44
+Services: 33 firms, avg. profit $-15.15
 
 
 ========================= MONTH 23 =========================
 
-Produce: 11 firms, avg. profit $-1.05
-Services: 4 firms, avg. profit $-3.16
+Produce: 33 firms, avg. profit $-20.37
+Services: 32 firms, avg. profit $-16.09
 
 
 ========================= MONTH 24 =========================
 
-Produce: 11 firms, avg. profit $-1.35
-Services: 4 firms, avg. profit $-3.02
+Produce: 30 firms, avg. profit $-23.83
+Services: 30 firms, avg. profit $-15.29
 
 
 ========================= MONTH 25 =========================
 
-Produce: 11 firms, avg. profit $-2.29
-Services: 3 firms, avg. profit $-3.41
+Produce: 28 firms, avg. profit $-19.25
+Services: 30 firms, avg. profit $-13.92
 
 
 ========================= MONTH 26 =========================
 
-Produce: 11 firms, avg. profit $-2.51
-Services: 3 firms, avg. profit $-5.04
+Produce: 27 firms, avg. profit $-18.06
+Services: 30 firms, avg. profit $-18.12
 
 
 ========================= MONTH 27 =========================
 
-Produce: 10 firms, avg. profit $-2.00
-Services: 3 firms, avg. profit $-5.96
+Produce: 20 firms, avg. profit $-17.38
+Services: 28 firms, avg. profit $-15.64
 
 
 ========================= MONTH 28 =========================
 
-Produce: 10 firms, avg. profit $-2.31
-Services: 3 firms, avg. profit $-5.34
+Produce: 19 firms, avg. profit $-12.87
+Services: 29 firms, avg. profit $-12.08
 
 
 ========================= MONTH 29 =========================
 
-Produce: 8 firms, avg. profit $-5.31
-Services: 3 firms, avg. profit $-5.01
+Produce: 24 firms, avg. profit $-16.86
+Services: 42 firms, avg. profit $-19.01
 
 
 ========================= MONTH 30 =========================
 
-Produce: 7 firms, avg. profit $-4.78
-Services: 5 firms, avg. profit $-8.67
+Produce: 32 firms, avg. profit $-16.59
+Services: 36 firms, avg. profit $-20.34
 
 
 ========================= MONTH 31 =========================
 
-Produce: 6 firms, avg. profit $-8.78
-Services: 5 firms, avg. profit $-3.58
+Produce: 40 firms, avg. profit $-30.17
+Services: 32 firms, avg. profit $-15.26
 
 
 ========================= MONTH 32 =========================
 
-Produce: 6 firms, avg. profit $-9.65
-Services: 6 firms, avg. profit $-6.66
+Produce: 43 firms, avg. profit $-28.98
+Services: 29 firms, avg. profit $-16.25
 
 
 ========================= MONTH 33 =========================
 
-Produce: 6 firms, avg. profit $-7.73
-Services: 6 firms, avg. profit $-5.06
+Produce: 43 firms, avg. profit $-29.53
+Services: 37 firms, avg. profit $-17.42
 
 
 ========================= MONTH 34 =========================
 
-Produce: 6 firms, avg. profit $-8.73
-Services: 6 firms, avg. profit $-5.19
+Produce: 41 firms, avg. profit $-27.14
+Services: 32 firms, avg. profit $-12.92
 
 
 ========================= MONTH 35 =========================
 
-Produce: 6 firms, avg. profit $-14.70
-Services: 6 firms, avg. profit $-4.41
+Produce: 44 firms, avg. profit $-24.78
+Services: 38 firms, avg. profit $-15.05
 
 
 ========================= MONTH 36 =========================
 
-Produce: 5 firms, avg. profit $-15.95
-Services: 11 firms, avg. profit $-5.22
+Produce: 37 firms, avg. profit $-25.72
+Services: 51 firms, avg. profit $-18.41
 
 
 ========================= MONTH 37 =========================
 
-Produce: 5 firms, avg. profit $-8.99
-Services: 10 firms, avg. profit $-3.81
+Produce: 40 firms, avg. profit $-22.96
+Services: 50 firms, avg. profit $-17.20
 
 
 ========================= MONTH 38 =========================
 
-Produce: 7 firms, avg. profit $-16.14
-Services: 9 firms, avg. profit $-3.50
+Produce: 36 firms, avg. profit $-24.13
+Services: 51 firms, avg. profit $-17.92
 
 
 ========================= MONTH 39 =========================
 
-Produce: 7 firms, avg. profit $-10.36
-Services: 11 firms, avg. profit $-4.65
+Produce: 39 firms, avg. profit $-24.52
+Services: 46 firms, avg. profit $-17.69
 
 
 ========================= MONTH 40 =========================
 
-Produce: 7 firms, avg. profit $-11.37
-Services: 10 firms, avg. profit $-3.51
+Produce: 41 firms, avg. profit $-20.73
+Services: 39 firms, avg. profit $-16.83
 
 
 ========================= MONTH 41 =========================
 
-Produce: 8 firms, avg. profit $-10.70
-Services: 8 firms, avg. profit $-4.62
+Produce: 46 firms, avg. profit $-24.99
+Services: 42 firms, avg. profit $-13.46
 
 
 ========================= MONTH 42 =========================
 
-Produce: 8 firms, avg. profit $-9.31
-Services: 7 firms, avg. profit $-5.81
+Produce: 44 firms, avg. profit $-24.99
+Services: 52 firms, avg. profit $-13.24
 
 
 ========================= MONTH 43 =========================
 
-Produce: 8 firms, avg. profit $-8.97
-Services: 7 firms, avg. profit $-4.93
+Produce: 48 firms, avg. profit $-26.46
+Services: 57 firms, avg. profit $-14.75
 
 
 ========================= MONTH 44 =========================
 
-Produce: 7 firms, avg. profit $-11.30
-Services: 6 firms, avg. profit $-6.22
+Produce: 44 firms, avg. profit $-24.11
+Services: 57 firms, avg. profit $-14.23
 
 
 ========================= MONTH 45 =========================
 
-Produce: 5 firms, avg. profit $-13.50
-Services: 6 firms, avg. profit $-7.81
+Produce: 44 firms, avg. profit $-24.85
+Services: 59 firms, avg. profit $-12.55
 
 
 ========================= MONTH 46 =========================
 
-Produce: 4 firms, avg. profit $-22.99
-Services: 5 firms, avg. profit $-5.43
+Produce: 43 firms, avg. profit $-17.48
+Services: 63 firms, avg. profit $-13.66
 
 
 ========================= MONTH 47 =========================
 
-Produce: 4 firms, avg. profit $-20.08
-Services: 11 firms, avg. profit $-5.32
+Produce: 47 firms, avg. profit $-17.43
+Services: 59 firms, avg. profit $-10.02
 
 
 ========================= MONTH 48 =========================
 
-Produce: 4 firms, avg. profit $-19.41
-Services: 11 firms, avg. profit $-3.51
+Produce: 58 firms, avg. profit $-22.96
+Services: 65 firms, avg. profit $-13.21
 
 
 ========================= MONTH 49 =========================
 
-Produce: 6 firms, avg. profit $-13.91
-Services: 10 firms, avg. profit $-3.42
+Produce: 66 firms, avg. profit $-16.43
+Services: 67 firms, avg. profit $-9.97
+
+
+========================= MONTH 50 =========================
+
+Produce: 64 firms, avg. profit $-18.72
+Services: 67 firms, avg. profit $-11.08
+
+
+========================= MONTH 51 =========================
+
+Produce: 62 firms, avg. profit $-16.56
+Services: 57 firms, avg. profit $-10.39
+
+
+========================= MONTH 52 =========================
+
+Produce: 61 firms, avg. profit $-17.18
+Services: 60 firms, avg. profit $-9.27
+
+
+========================= MONTH 53 =========================
+
+Produce: 44 firms, avg. profit $-13.87
+Services: 61 firms, avg. profit $-10.41
+
+
+========================= MONTH 54 =========================
+
+Produce: 54 firms, avg. profit $-15.65
+Services: 56 firms, avg. profit $-8.77
+
+
+========================= MONTH 55 =========================
+
+Produce: 59 firms, avg. profit $-16.36
+Services: 67 firms, avg. profit $-11.86
+
+
+========================= MONTH 56 =========================
+
+Produce: 64 firms, avg. profit $-15.28
+Services: 75 firms, avg. profit $-12.95
+
+
+========================= MONTH 57 =========================
+
+Produce: 63 firms, avg. profit $-16.53
+Services: 77 firms, avg. profit $-13.57
+
+
+========================= MONTH 58 =========================
+
+Produce: 64 firms, avg. profit $-16.69
+Services: 65 firms, avg. profit $-11.85
+
+
+========================= MONTH 59 =========================
+
+Produce: 56 firms, avg. profit $-16.89
+Services: 61 firms, avg. profit $-10.53
+
+
+========================= MONTH 60 =========================
+
+Produce: 58 firms, avg. profit $-14.51
+Services: 64 firms, avg. profit $-12.15
+
+
+========================= MONTH 61 =========================
+
+Produce: 75 firms, avg. profit $-15.26
+Services: 61 firms, avg. profit $-9.74
+
+
+========================= MONTH 62 =========================
+
+Produce: 75 firms, avg. profit $-15.11
+Services: 73 firms, avg. profit $-9.69
+
+
+========================= MONTH 63 =========================
+
+Produce: 73 firms, avg. profit $-15.45
+Services: 80 firms, avg. profit $-10.96
+
+
+========================= MONTH 64 =========================
+
+Produce: 69 firms, avg. profit $-13.67
+Services: 80 firms, avg. profit $-10.15
+
+
+========================= MONTH 65 =========================
+
+Produce: 66 firms, avg. profit $-13.30
+Services: 69 firms, avg. profit $-9.70
+
+
+========================= MONTH 66 =========================
+
+Produce: 57 firms, avg. profit $-12.61
+Services: 73 firms, avg. profit $-9.10
+
+
+========================= MONTH 67 =========================
+
+Produce: 64 firms, avg. profit $-12.70
+Services: 68 firms, avg. profit $-10.03
+
+
+========================= MONTH 68 =========================
+
+Produce: 68 firms, avg. profit $-16.98
+Services: 68 firms, avg. profit $-10.70
+
+
+========================= MONTH 69 =========================
+
+Produce: 74 firms, avg. profit $-16.20
+Services: 67 firms, avg. profit $-10.30
+
+
+========================= MONTH 70 =========================
+
+Produce: 74 firms, avg. profit $-15.70
+Services: 83 firms, avg. profit $-12.55
+
+
+========================= MONTH 71 =========================
+
+Produce: 73 firms, avg. profit $-12.71
+Services: 75 firms, avg. profit $-11.12
+
+
+========================= MONTH 72 =========================
+
+Produce: 65 firms, avg. profit $-11.56
+Services: 66 firms, avg. profit $-9.78
+
+
+========================= MONTH 73 =========================
+
+Produce: 58 firms, avg. profit $-10.52
+Services: 69 firms, avg. profit $-11.00
+
+
+========================= MONTH 74 =========================
+
+Produce: 71 firms, avg. profit $-12.89
+Services: 70 firms, avg. profit $-12.43
+
+
+========================= MONTH 75 =========================
+
+Produce: 82 firms, avg. profit $-16.42
+Services: 57 firms, avg. profit $-12.81
+
+
+========================= MONTH 76 =========================
+
+Produce: 78 firms, avg. profit $-13.46
+Services: 74 firms, avg. profit $-9.33
+
+
+========================= MONTH 77 =========================
+
+Produce: 77 firms, avg. profit $-13.11
+Services: 80 firms, avg. profit $-13.60
+
+
+========================= MONTH 78 =========================
+
+Produce: 76 firms, avg. profit $-10.23
+Services: 76 firms, avg. profit $-11.58
+
+
+========================= MONTH 79 =========================
+
+Produce: 66 firms, avg. profit $-10.98
+Services: 73 firms, avg. profit $-10.07
+
+
+========================= MONTH 80 =========================
+
+Produce: 66 firms, avg. profit $-9.81
+Services: 85 firms, avg. profit $-11.44
+
+
+========================= MONTH 81 =========================
+
+Produce: 77 firms, avg. profit $-11.46
+Services: 83 firms, avg. profit $-10.34
+
+
+========================= MONTH 82 =========================
+
+Produce: 86 firms, avg. profit $-12.36
+Services: 89 firms, avg. profit $-9.64
+
+
+========================= MONTH 83 =========================
+
+Produce: 87 firms, avg. profit $-9.31
+Services: 92 firms, avg. profit $-7.83
+
+
+========================= MONTH 84 =========================
+
+Produce: 90 firms, avg. profit $-10.99
+Services: 93 firms, avg. profit $-8.31
+
+
+========================= MONTH 85 =========================
+
+Produce: 80 firms, avg. profit $-9.48
+Services: 80 firms, avg. profit $-8.34
+
+
+========================= MONTH 86 =========================
+
+Produce: 80 firms, avg. profit $-9.99
+Services: 80 firms, avg. profit $-8.11
+
+
+========================= MONTH 87 =========================
+
+Produce: 72 firms, avg. profit $-9.75
+Services: 78 firms, avg. profit $-9.42
+
+
+========================= MONTH 88 =========================
+
+Produce: 79 firms, avg. profit $-8.55
+Services: 83 firms, avg. profit $-9.37
+
+
+========================= MONTH 89 =========================
+
+Produce: 91 firms, avg. profit $-11.15
+Services: 96 firms, avg. profit $-10.21
+
+
+========================= MONTH 90 =========================
+
+Produce: 92 firms, avg. profit $-10.09
+Services: 102 firms, avg. profit $-10.14
+
+
+========================= MONTH 91 =========================
+
+Produce: 82 firms, avg. profit $-8.36
+Services: 89 firms, avg. profit $-8.85
+
+
+========================= MONTH 92 =========================
+
+Produce: 79 firms, avg. profit $-7.94
+Services: 82 firms, avg. profit $-8.77
+
+
+========================= MONTH 93 =========================
+
+Produce: 89 firms, avg. profit $-9.66
+Services: 76 firms, avg. profit $-8.86
+
+
+========================= MONTH 94 =========================
+
+Produce: 80 firms, avg. profit $-10.87
+Services: 78 firms, avg. profit $-9.07
+
+
+========================= MONTH 95 =========================
+
+Produce: 85 firms, avg. profit $-8.57
+Services: 73 firms, avg. profit $-7.65
+
+
+========================= MONTH 96 =========================
+
+Produce: 94 firms, avg. profit $-8.63
+Services: 95 firms, avg. profit $-9.42
+
+
+========================= MONTH 97 =========================
+
+Produce: 100 firms, avg. profit $-10.11
+Services: 95 firms, avg. profit $-10.21
+
+
+========================= MONTH 98 =========================
+
+Produce: 78 firms, avg. profit $-7.73
+Services: 94 firms, avg. profit $-8.48
+
+
+========================= MONTH 99 =========================
+
+Produce: 77 firms, avg. profit $-7.70
+Services: 84 firms, avg. profit $-9.52
 
 

@@ -15,12 +15,22 @@ class NationalEconomy():
         self.listSales = np.zeros((SIM_LENGTH, NUM_GOOD_TYPES))
         self.listPrices = np.zeros((SIM_LENGTH, NUM_GOOD_TYPES))
 
+    def findTotalMoneySupply(self):
+        
+        totalMoneySupply: float = 0.0
+        for pop in self.pops.listPops:
+            totalMoneySupply += pop.funds
+        for firm in self.firms.listFirms:
+            totalMoneySupply += firm.funds
+        return totalMoneySupply
+
     def simulate(self, numMonths: int):
 
         self.wipeLogs()
 
         for month in range(numMonths):
             print("Month " + str(month + 1))
+            print("Money supply: $" + f"{self.findTotalMoneySupply():.2f}")
             self.stepMonth()
             self.logMonth(month)
 

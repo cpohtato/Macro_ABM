@@ -8,6 +8,7 @@ def main():
 
     arcadia.simulate(SIM_LENGTH)
     # byzantium.simulate(SIM_LENGTH)
+    print("Simulation complete")
 
 if (__name__ == "__main__"):
     main()

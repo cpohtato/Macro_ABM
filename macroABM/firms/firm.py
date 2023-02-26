@@ -10,7 +10,7 @@ LABOUR_PROD_STD_DEV = 0.05
 CAPITAL_PROD_MEAN = 1.0
 CAPITAL_PROD_STD_DEV = 0.05
 
-MARKUP_FACTOR = 1.1
+MARKUP_FACTOR = 1.5
 
 class Firm():
 
@@ -86,7 +86,6 @@ class Firm():
     def reserveDividends(self):
 
         self.currDividends = self.funds * DIVIDEND_RATE
-        self.funds -= self.currDividends
 
     def productivityFunction(self, labourFactor: float, labour: int, capitalFactor: float, capital: int):
 
