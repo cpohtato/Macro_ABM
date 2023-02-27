@@ -2,7 +2,7 @@ from ..utils import *
 from ..markets.marketManager import *
 
 PRICE_VISCOSITY = 0.05
-PRICE_STD_DEV = 0.05
+PRICE_STD_DEV = 0.03
 STD_DEV_FOR_90_PERCENT_CLEARANCE = 1.28
 
 LABOUR_PROD_MEAN = 1.0
@@ -35,6 +35,8 @@ class Firm():
         self.prevProfit: float = 0.0
         self.monthsUnprofitable: int = 0
 
+        self.currInventory: list[int] = [0] * NUM_GOOD_TYPES
+
     def getFirmId(self):
         
         return self.firmId
@@ -48,7 +50,7 @@ class Firm():
 
         mu: float = highestTradedPrice * (1 + PRICE_VISCOSITY)
         sigma: float = highestTradedPrice * PRICE_STD_DEV
-        newPrice: float = random.normalvariate(mu, sigma)
+        newPrice: float = random.normalvariate(mu, sigma) * (1 + MONTHLY_INFLATION)
 
         if (newPrice < highestTradedPrice): newPrice = highestTradedPrice
         newPrice = self.priceFloor(newPrice)
@@ -60,14 +62,14 @@ class Firm():
         mu: float = (highestTradedPrice + avgTradedPrice) / 2
         sigma: float = avgTradedPrice * PRICE_STD_DEV
         newPrice: float = random.normalvariate(mu, sigma)
-        newPrice = self.priceFloor(newPrice)
+        newPrice = self.priceFloor(newPrice)  * (1 + MONTHLY_INFLATION)
         return newPrice
 
     def competitivePricing(self, avgTradedPrice: float):
 
         sigma: float = avgTradedPrice * PRICE_STD_DEV
         newPrice: float = random.normalvariate(avgTradedPrice, sigma)
-        newPrice = self.priceFloor(newPrice)
+        newPrice = self.priceFloor(newPrice)  * (1 + MONTHLY_INFLATION)
         return newPrice
 
     def choosePriceOfGoods(self, marketManager: MarketManager):
@@ -116,7 +118,8 @@ class Firm():
 
     def calcMargProdInputCost(self, marketManager: MarketManager):
 
-        #   TODO: some good types will require input goods for production
+        if (self.goodType == TYPE_CONSUMER_GOODS):
+            return marketManager.lowestPriceAvailable(TYPE_METAL) 
         return 0.0
 
     def calcMargProfitPerProd(self, goodPrice: float, marketManager: MarketManager):
@@ -131,10 +134,43 @@ class Firm():
         self.currWages += wage
         return True
 
+    def buyRawMaterials(self, marketManager: MarketManager):
+
+        if (self.goodType == TYPE_CONSUMER_GOODS):
+            availableFunds = self.funds - self.currDividends - self.currWages - self.currRawMaterialCosts
+            lowestPrice = marketManager.lowestPriceAvailable(TYPE_METAL)
+            if (availableFunds > lowestPrice):
+                self.currRawMaterialCosts += lowestPrice
+                self.currInventory[TYPE_METAL] += 1
+                marketManager.buyGood(TYPE_METAL)
+                return True
+            return False
+        return True
+
+    def buyInputs(self, marketManager: MarketManager):
+
+        return (self.hireLabour(marketManager) & self.buyRawMaterials(marketManager))
+
+    def rawMaterialsAvailable(self, marketManager: MarketManager):
+
+        if (self.goodType == TYPE_CONSUMER_GOODS):
+            return marketManager.goodAvailable(TYPE_METAL)
+        return True
+
     def chooseToBuyInputs(self, goodPrice: float, marketManager: MarketManager):
 
-        if not (marketManager.goodAvailable(TYPE_LABOUR)): 
-            return False
+        if (self.goodType == TYPE_CONSUMER_GOODS):
+            while (self.convertInputsToOutput() > self.currInventory[TYPE_METAL]):
+                lowestPrice = marketManager.lowestPriceAvailable(TYPE_METAL)
+                fundsAvailable = self.funds - self.currRawMaterialCosts
+                if (fundsAvailable > lowestPrice) & (lowestPrice > 0.0):
+                    self.currRawMaterialCosts += marketManager.buyGood(TYPE_METAL)
+                    self.currInventory[TYPE_METAL] += 1
+                else: break
+
+        if not (self.rawMaterialsAvailable(marketManager)): return False
+
+        if not (marketManager.goodAvailable(TYPE_LABOUR)): return False
 
         wagePerProd = self.calcMargWagePerProd(marketManager)
         if (wagePerProd < 0.0): return False
@@ -142,7 +178,7 @@ class Firm():
         profitPerProd = self.calcMargProfitPerProd(goodPrice, marketManager)
         profitPerProd /= MARKUP_FACTOR
 
-        if (profitPerProd > wagePerProd): return self.hireLabour(marketManager) 
+        if (profitPerProd > wagePerProd): return self.buyInputs(marketManager) 
         return False
 
     def convertInputsToOutput(self):
@@ -166,6 +202,8 @@ class Firm():
         while (True):
             if not (self.chooseToBuyInputs(goodPrice, marketManager)): break
 
+        if (self.goodType == TYPE_CONSUMER_GOODS):
+            unitsProduced = min(self.currInventory[TYPE_METAL], self.convertInputsToOutput())
         unitsProduced = self.convertInputsToOutput()
         totalCost: float = self.currDividends + self.currWages + self.currRawMaterialCosts
         self.funds -= totalCost
@@ -201,6 +239,8 @@ class Firm():
         self.currWages = 0.0
         self.currRawMaterialCosts = 0.0
         self.currRevenue = 0.0
+
+        self.currInventory = [0] * NUM_GOOD_TYPES
 
     def getMonthsUnprofitable(self):
 

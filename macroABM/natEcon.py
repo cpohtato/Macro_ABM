@@ -1,6 +1,7 @@
 from .markets.marketManager import *
 from .pops.popManager import *
 from .firms.firmManager import *
+from .govts.govt import *
 import os
 
 class NationalEconomy():
@@ -11,6 +12,7 @@ class NationalEconomy():
         self.pops: PopManager = PopManager(initPops)
         self.markets: MarketManager = MarketManager(NUM_GOOD_TYPES)
         self.firms: FirmManager = FirmManager()
+        self.govt: Govt = Govt()
 
         self.listSales = np.zeros((SIM_LENGTH, NUM_GOOD_TYPES))
         self.listPrices = np.zeros((SIM_LENGTH, NUM_GOOD_TYPES))
@@ -22,6 +24,7 @@ class NationalEconomy():
             totalMoneySupply += pop.funds
         for firm in self.firms.listFirms:
             totalMoneySupply += firm.funds
+        totalMoneySupply += self.govt.funds
         return totalMoneySupply
 
     def simulate(self, numMonths: int):
@@ -33,6 +36,11 @@ class NationalEconomy():
             print("Money supply: $" + f"{self.findTotalMoneySupply():.2f}")
             self.stepMonth()
             self.logMonth(month)
+            print(str(self.pops.findNumStarvingPops()) + " pops starving")
+            print("Govt bought " + str(self.govt.producePurchased) + " food")
+            print("Govt bought " + str(self.govt.servicesPurchased) + " services")
+            print("Govt bought " + str(self.govt.metalPurchased) + " metal")
+            print()
 
         self.displayResults()
 
@@ -54,12 +62,14 @@ class NationalEconomy():
     def stepIncomePhase(self):
         
         self.pops.receiveWages(self.markets, self.firms) 
-        # self.govt.levyTax()
+        self.govt.levyIncomeTax(self.pops)
 
     def stepConsumptionPhase(self):
         
         # self.govtConsume()
         self.pops.consume(self.markets)
+        self.govt.feedStarvingPops(self.pops, self.markets)
+        self.govt.buyPublicGoods(self.pops, self.markets)
 
     def stepSettlementPhase(self):
 
@@ -84,6 +94,8 @@ class NationalEconomy():
         plt.plot(arrTime, self.listPrices[:SIM_LENGTH, TYPE_LABOUR], label=DICT_GOOD_TYPES[TYPE_LABOUR])
         plt.plot(arrTime, self.listPrices[:SIM_LENGTH, TYPE_PRODUCE], label=DICT_GOOD_TYPES[TYPE_PRODUCE])
         plt.plot(arrTime, self.listPrices[:SIM_LENGTH, TYPE_SERVICES], label=DICT_GOOD_TYPES[TYPE_SERVICES])
+        plt.plot(arrTime, self.listPrices[:SIM_LENGTH, TYPE_METAL], label=DICT_GOOD_TYPES[TYPE_METAL])
+        plt.plot(arrTime, self.listPrices[:SIM_LENGTH, TYPE_CONSUMER_GOODS], label=DICT_GOOD_TYPES[TYPE_CONSUMER_GOODS])
         plt.title("Market Prices")
         plt.xlabel("Month")
         plt.ylabel("Price")
@@ -94,6 +106,8 @@ class NationalEconomy():
         plt.plot(arrTime, self.listSales[:SIM_LENGTH, TYPE_LABOUR], label=DICT_GOOD_TYPES[TYPE_LABOUR])
         plt.plot(arrTime, self.listSales[:SIM_LENGTH, TYPE_PRODUCE], label=DICT_GOOD_TYPES[TYPE_PRODUCE])
         plt.plot(arrTime, self.listSales[:SIM_LENGTH, TYPE_SERVICES], label=DICT_GOOD_TYPES[TYPE_SERVICES])
+        plt.plot(arrTime, self.listSales[:SIM_LENGTH, TYPE_METAL], label=DICT_GOOD_TYPES[TYPE_METAL])
+        plt.plot(arrTime, self.listSales[:SIM_LENGTH, TYPE_CONSUMER_GOODS], label=DICT_GOOD_TYPES[TYPE_CONSUMER_GOODS])
         plt.title("Market Sales")
         plt.xlabel("Month")
         plt.ylabel("Sales")

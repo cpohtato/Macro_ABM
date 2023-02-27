@@ -2,8 +2,8 @@ from ..utils import *
 from ..markets.marketManager import *
 from ..firms.firmManager import *
 
-ENTREPRENEURIAL_RELUCTANCE = 0.95
-WAGE_NORM_STD_DEV = 0.05
+ENTREPRENEURIAL_RELUCTANCE = 0.6
+WAGE_NORM_STD_DEV = 0.03
 
 class Pop():
 
@@ -21,6 +21,8 @@ class Pop():
                                                       DICT_PREFERENCE_STD_DEV[TYPE_PRODUCE])
         self.servicesPreference = random.normalvariate(DICT_PREFERENCE_MEAN[TYPE_SERVICES],
                                                        DICT_PREFERENCE_STD_DEV[TYPE_SERVICES])
+        self.cgPreference = random.normalvariate(DICT_PREFERENCE_MEAN[TYPE_CONSUMER_GOODS],
+                                                 DICT_PREFERENCE_STD_DEV[TYPE_CONSUMER_GOODS])
 
         self.currBundle: list[int] = [0] * NUM_GOOD_TYPES
 
@@ -57,9 +59,11 @@ class Pop():
 
     def priceLabour(self, baseWage: float):
         sigma = baseWage * WAGE_NORM_STD_DEV
-        return random.normalvariate(baseWage, sigma)
+        return random.normalvariate(baseWage, sigma) * (1 + MONTHLY_INFLATION)
 
     def chooseOutput(self, listProfits: list[float]):
+
+        self.currBundle = [0] * NUM_GOOD_TYPES
 
         firmExists: bool = False
         price: float = -1.0
@@ -103,8 +107,9 @@ class Pop():
     def utilityFunction(self, bundle: list[int]):
 
         produceUtility = math.sqrt(self.producePreference * bundle[TYPE_PRODUCE])
-        servicesUtility = math.sqrt(self.servicesPreference * (bundle[TYPE_SERVICES] + 1))
-        return produceUtility * servicesUtility
+        servicesUtility = math.sqrt(self.servicesPreference * bundle[TYPE_SERVICES] + 1)
+        cgUtility = math.sqrt(self.cgPreference * bundle[TYPE_CONSUMER_GOODS] + 1)
+        return produceUtility * servicesUtility * cgUtility
 
     def getMargUtility(self):
 
@@ -153,12 +158,18 @@ class Pop():
     def settle(self):
 
         self.currIncome = 0
-        self.currBundle = [0] * NUM_GOOD_TYPES
+        # self.currBundle = [0] * NUM_GOOD_TYPES
 
     def closeOwnedFirm(self, firmFunds: float):
 
         self.funds += firmFunds
         self.ownsFirm = False
         self.ownedFirmType = -1
+
+    def payIncomeTax(self):
+
+        incomeTax: float = self.currIncome * INCOME_TAX_RATE
+        self.funds -= incomeTax
+        return incomeTax
         
 

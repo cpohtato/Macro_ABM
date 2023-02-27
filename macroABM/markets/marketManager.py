@@ -80,7 +80,9 @@ class MarketManager():
                 sales[goodType] = self.listMarkets[goodType].getPrevNumTrades()
                 avgPrices[goodType] = self.listMarkets[goodType].getAvgTradedPrice()
                 logFile.write(DICT_GOOD_TYPES[goodType] + ": " + 
-                              str(sales[goodType]) + " sold @ $" +
+                              str(sales[goodType]) + "/" + 
+                              str(self.listMarkets[goodType].prevNumSupplied) + 
+                              " sold @ $" +
                               f"{avgPrices[goodType]:.2f}" + " ea. avg.")
                 logFile.write("\n")
             logFile.write("\n")

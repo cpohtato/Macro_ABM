@@ -1,600 +1,800 @@
 ========================= MONTH 0 =========================
 
-Produce: 8 firms, avg. profit $64.97
-Services: 8 firms, avg. profit $37.55
+Produce: 5 firms, avg. profit $34.47
+Services: 5 firms, avg. profit $30.36
+Metal: 7 firms, avg. profit $5.91
+Consumer Goods: 9 firms, avg. profit $-5.09
 
 
 ========================= MONTH 1 =========================
 
-Produce: 89 firms, avg. profit $2.25
-Services: 54 firms, avg. profit $6.41
+Produce: 28 firms, avg. profit $-1.40
+Services: 20 firms, avg. profit $-2.13
+Metal: 10 firms, avg. profit $-1.74
+Consumer Goods: 9 firms, avg. profit $-0.64
 
 
 ========================= MONTH 2 =========================
 
-Produce: 90 firms, avg. profit $-0.05
-Services: 57 firms, avg. profit $-0.60
+Produce: 28 firms, avg. profit $1.25
+Services: 20 firms, avg. profit $-2.08
+Metal: 10 firms, avg. profit $0.06
+Consumer Goods: 9 firms, avg. profit $5.72
 
 
 ========================= MONTH 3 =========================
 
-Produce: 91 firms, avg. profit $-0.87
-Services: 58 firms, avg. profit $-3.00
+Produce: 29 firms, avg. profit $0.13
+Services: 20 firms, avg. profit $-0.06
+Metal: 10 firms, avg. profit $5.43
+Consumer Goods: 17 firms, avg. profit $-4.28
 
 
 ========================= MONTH 4 =========================
 
-Produce: 92 firms, avg. profit $-2.29
-Services: 58 firms, avg. profit $-1.69
+Produce: 29 firms, avg. profit $1.00
+Services: 20 firms, avg. profit $0.26
+Metal: 19 firms, avg. profit $0.03
+Consumer Goods: 17 firms, avg. profit $-0.00
 
 
 ========================= MONTH 5 =========================
 
-Produce: 92 firms, avg. profit $-3.37
-Services: 57 firms, avg. profit $-1.95
+Produce: 28 firms, avg. profit $1.52
+Services: 18 firms, avg. profit $0.22
+Metal: 16 firms, avg. profit $-0.38
+Consumer Goods: 17 firms, avg. profit $-0.04
 
 
 ========================= MONTH 6 =========================
 
-Produce: 58 firms, avg. profit $-5.75
-Services: 47 firms, avg. profit $-3.63
+Produce: 13 firms, avg. profit $2.14
+Services: 9 firms, avg. profit $1.45
+Metal: 15 firms, avg. profit $-0.31
+Consumer Goods: 17 firms, avg. profit $-0.13
 
 
 ========================= MONTH 7 =========================
 
-Produce: 55 firms, avg. profit $-3.24
-Services: 45 firms, avg. profit $-6.45
+Produce: 13 firms, avg. profit $2.55
+Services: 7 firms, avg. profit $1.56
+Metal: 15 firms, avg. profit $-0.45
+Consumer Goods: 17 firms, avg. profit $-0.69
 
 
 ========================= MONTH 8 =========================
 
-Produce: 52 firms, avg. profit $-5.06
-Services: 43 firms, avg. profit $-3.28
+Produce: 12 firms, avg. profit $1.25
+Services: 7 firms, avg. profit $3.07
+Metal: 15 firms, avg. profit $-0.53
+Consumer Goods: 16 firms, avg. profit $0.20
 
 
 ========================= MONTH 9 =========================
 
-Produce: 48 firms, avg. profit $-5.10
-Services: 43 firms, avg. profit $-5.54
+Produce: 11 firms, avg. profit $1.04
+Services: 10 firms, avg. profit $0.15
+Metal: 9 firms, avg. profit $0.99
+Consumer Goods: 17 firms, avg. profit $-0.40
 
 
 ========================= MONTH 10 =========================
 
-Produce: 45 firms, avg. profit $-7.52
-Services: 42 firms, avg. profit $-4.59
+Produce: 10 firms, avg. profit $2.98
+Services: 8 firms, avg. profit $1.96
+Metal: 10 firms, avg. profit $-0.20
+Consumer Goods: 16 firms, avg. profit $-0.08
 
 
 ========================= MONTH 11 =========================
 
-Produce: 44 firms, avg. profit $-9.54
-Services: 38 firms, avg. profit $-5.12
+Produce: 10 firms, avg. profit $2.87
+Services: 8 firms, avg. profit $1.22
+Metal: 9 firms, avg. profit $-0.07
+Consumer Goods: 15 firms, avg. profit $0.21
 
 
 ========================= MONTH 12 =========================
 
-Produce: 42 firms, avg. profit $-10.72
-Services: 38 firms, avg. profit $-5.30
+Produce: 11 firms, avg. profit $2.30
+Services: 8 firms, avg. profit $-0.23
+Metal: 9 firms, avg. profit $0.16
+Consumer Goods: 16 firms, avg. profit $0.07
 
 
 ========================= MONTH 13 =========================
 
-Produce: 41 firms, avg. profit $-11.55
-Services: 39 firms, avg. profit $-6.15
+Produce: 10 firms, avg. profit $1.70
+Services: 8 firms, avg. profit $-0.24
+Metal: 10 firms, avg. profit $-0.97
+Consumer Goods: 15 firms, avg. profit $1.58
 
 
 ========================= MONTH 14 =========================
 
-Produce: 39 firms, avg. profit $-12.28
-Services: 38 firms, avg. profit $-7.36
+Produce: 9 firms, avg. profit $1.04
+Services: 6 firms, avg. profit $-1.35
+Metal: 10 firms, avg. profit $7.38
+Consumer Goods: 33 firms, avg. profit $-2.42
 
 
 ========================= MONTH 15 =========================
 
-Produce: 40 firms, avg. profit $-13.41
-Services: 35 firms, avg. profit $-9.27
+Produce: 9 firms, avg. profit $1.94
+Services: 6 firms, avg. profit $-1.98
+Metal: 19 firms, avg. profit $-0.37
+Consumer Goods: 32 firms, avg. profit $-0.04
 
 
 ========================= MONTH 16 =========================
 
-Produce: 39 firms, avg. profit $-12.97
-Services: 35 firms, avg. profit $-10.54
+Produce: 10 firms, avg. profit $1.78
+Services: 5 firms, avg. profit $-1.21
+Metal: 18 firms, avg. profit $-0.39
+Consumer Goods: 32 firms, avg. profit $0.06
 
 
 ========================= MONTH 17 =========================
 
-Produce: 36 firms, avg. profit $-16.17
-Services: 35 firms, avg. profit $-10.16
+Produce: 9 firms, avg. profit $1.94
+Services: 4 firms, avg. profit $0.54
+Metal: 18 firms, avg. profit $-0.23
+Consumer Goods: 30 firms, avg. profit $0.37
 
 
 ========================= MONTH 18 =========================
 
-Produce: 34 firms, avg. profit $-17.20
-Services: 32 firms, avg. profit $-9.23
+Produce: 8 firms, avg. profit $1.74
+Services: 4 firms, avg. profit $-0.42
+Metal: 15 firms, avg. profit $0.06
+Consumer Goods: 31 firms, avg. profit $-0.07
 
 
 ========================= MONTH 19 =========================
 
-Produce: 33 firms, avg. profit $-17.62
-Services: 31 firms, avg. profit $-8.89
+Produce: 8 firms, avg. profit $1.43
+Services: 4 firms, avg. profit $-0.12
+Metal: 15 firms, avg. profit $0.12
+Consumer Goods: 26 firms, avg. profit $-0.20
 
 
 ========================= MONTH 20 =========================
 
-Produce: 34 firms, avg. profit $-18.12
-Services: 29 firms, avg. profit $-10.35
+Produce: 8 firms, avg. profit $0.44
+Services: 4 firms, avg. profit $-0.40
+Metal: 7 firms, avg. profit $0.01
+Consumer Goods: 25 firms, avg. profit $0.32
 
 
 ========================= MONTH 21 =========================
 
-Produce: 33 firms, avg. profit $-18.66
-Services: 31 firms, avg. profit $-12.40
+Produce: 7 firms, avg. profit $1.64
+Services: 4 firms, avg. profit $1.61
+Metal: 6 firms, avg. profit $0.65
+Consumer Goods: 24 firms, avg. profit $0.21
 
 
 ========================= MONTH 22 =========================
 
-Produce: 33 firms, avg. profit $-17.44
-Services: 33 firms, avg. profit $-15.15
+Produce: 6 firms, avg. profit $0.61
+Services: 4 firms, avg. profit $0.27
+Metal: 7 firms, avg. profit $0.77
+Consumer Goods: 24 firms, avg. profit $0.01
 
 
 ========================= MONTH 23 =========================
 
-Produce: 33 firms, avg. profit $-20.37
-Services: 32 firms, avg. profit $-16.09
+Produce: 6 firms, avg. profit $0.47
+Services: 4 firms, avg. profit $0.27
+Metal: 6 firms, avg. profit $0.08
+Consumer Goods: 23 firms, avg. profit $0.15
 
 
 ========================= MONTH 24 =========================
 
-Produce: 30 firms, avg. profit $-23.83
-Services: 30 firms, avg. profit $-15.29
+Produce: 7 firms, avg. profit $-0.25
+Services: 5 firms, avg. profit $-0.92
+Metal: 5 firms, avg. profit $1.22
+Consumer Goods: 22 firms, avg. profit $0.20
 
 
 ========================= MONTH 25 =========================
 
-Produce: 28 firms, avg. profit $-19.25
-Services: 30 firms, avg. profit $-13.92
+Produce: 7 firms, avg. profit $0.10
+Services: 5 firms, avg. profit $-0.85
+Metal: 6 firms, avg. profit $0.76
+Consumer Goods: 22 firms, avg. profit $0.28
 
 
 ========================= MONTH 26 =========================
 
-Produce: 27 firms, avg. profit $-18.06
-Services: 30 firms, avg. profit $-18.12
+Produce: 7 firms, avg. profit $-0.40
+Services: 5 firms, avg. profit $-1.64
+Metal: 8 firms, avg. profit $1.30
+Consumer Goods: 21 firms, avg. profit $-0.35
 
 
 ========================= MONTH 27 =========================
 
-Produce: 20 firms, avg. profit $-17.38
-Services: 28 firms, avg. profit $-15.64
+Produce: 7 firms, avg. profit $-2.97
+Services: 4 firms, avg. profit $-0.29
+Metal: 11 firms, avg. profit $-0.43
+Consumer Goods: 21 firms, avg. profit $0.63
 
 
 ========================= MONTH 28 =========================
 
-Produce: 19 firms, avg. profit $-12.87
-Services: 29 firms, avg. profit $-12.08
+Produce: 7 firms, avg. profit $-3.75
+Services: 3 firms, avg. profit $2.90
+Metal: 10 firms, avg. profit $-0.21
+Consumer Goods: 21 firms, avg. profit $0.56
 
 
 ========================= MONTH 29 =========================
 
-Produce: 24 firms, avg. profit $-16.86
-Services: 42 firms, avg. profit $-19.01
+Produce: 7 firms, avg. profit $-3.62
+Services: 4 firms, avg. profit $-0.04
+Metal: 9 firms, avg. profit $1.28
+Consumer Goods: 24 firms, avg. profit $0.03
 
 
 ========================= MONTH 30 =========================
 
-Produce: 32 firms, avg. profit $-16.59
-Services: 36 firms, avg. profit $-20.34
+Produce: 6 firms, avg. profit $-1.59
+Services: 4 firms, avg. profit $0.25
+Metal: 9 firms, avg. profit $1.13
+Consumer Goods: 23 firms, avg. profit $0.41
 
 
 ========================= MONTH 31 =========================
 
-Produce: 40 firms, avg. profit $-30.17
-Services: 32 firms, avg. profit $-15.26
+Produce: 6 firms, avg. profit $-2.05
+Services: 4 firms, avg. profit $-2.98
+Metal: 11 firms, avg. profit $0.58
+Consumer Goods: 24 firms, avg. profit $0.61
 
 
 ========================= MONTH 32 =========================
 
-Produce: 43 firms, avg. profit $-28.98
-Services: 29 firms, avg. profit $-16.25
+Produce: 6 firms, avg. profit $-1.47
+Services: 4 firms, avg. profit $-3.63
+Metal: 11 firms, avg. profit $1.99
+Consumer Goods: 25 firms, avg. profit $-0.20
 
 
 ========================= MONTH 33 =========================
 
-Produce: 43 firms, avg. profit $-29.53
-Services: 37 firms, avg. profit $-17.42
+Produce: 6 firms, avg. profit $-2.16
+Services: 4 firms, avg. profit $0.80
+Metal: 15 firms, avg. profit $1.06
+Consumer Goods: 24 firms, avg. profit $-0.24
 
 
 ========================= MONTH 34 =========================
 
-Produce: 41 firms, avg. profit $-27.14
-Services: 32 firms, avg. profit $-12.92
+Produce: 6 firms, avg. profit $-4.41
+Services: 3 firms, avg. profit $0.16
+Metal: 20 firms, avg. profit $0.73
+Consumer Goods: 23 firms, avg. profit $-0.42
 
 
 ========================= MONTH 35 =========================
 
-Produce: 44 firms, avg. profit $-24.78
-Services: 38 firms, avg. profit $-15.05
+Produce: 5 firms, avg. profit $-4.52
+Services: 2 firms, avg. profit $3.09
+Metal: 23 firms, avg. profit $0.31
+Consumer Goods: 22 firms, avg. profit $-0.24
 
 
 ========================= MONTH 36 =========================
 
-Produce: 37 firms, avg. profit $-25.72
-Services: 51 firms, avg. profit $-18.41
+Produce: 5 firms, avg. profit $-3.37
+Services: 3 firms, avg. profit $-0.21
+Metal: 20 firms, avg. profit $0.55
+Consumer Goods: 21 firms, avg. profit $0.15
 
 
 ========================= MONTH 37 =========================
 
-Produce: 40 firms, avg. profit $-22.96
-Services: 50 firms, avg. profit $-17.20
+Produce: 5 firms, avg. profit $-5.17
+Services: 2 firms, avg. profit $2.73
+Metal: 20 firms, avg. profit $-0.33
+Consumer Goods: 20 firms, avg. profit $1.05
 
 
 ========================= MONTH 38 =========================
 
-Produce: 36 firms, avg. profit $-24.13
-Services: 51 firms, avg. profit $-17.92
+Produce: 5 firms, avg. profit $0.18
+Services: 4 firms, avg. profit $-7.51
+Metal: 18 firms, avg. profit $1.04
+Consumer Goods: 22 firms, avg. profit $-0.25
 
 
 ========================= MONTH 39 =========================
 
-Produce: 39 firms, avg. profit $-24.52
-Services: 46 firms, avg. profit $-17.69
+Produce: 5 firms, avg. profit $1.32
+Services: 4 firms, avg. profit $-6.11
+Metal: 19 firms, avg. profit $0.97
+Consumer Goods: 21 firms, avg. profit $-0.72
 
 
 ========================= MONTH 40 =========================
 
-Produce: 41 firms, avg. profit $-20.73
-Services: 39 firms, avg. profit $-16.83
+Produce: 5 firms, avg. profit $1.39
+Services: 4 firms, avg. profit $-7.05
+Metal: 21 firms, avg. profit $0.29
+Consumer Goods: 20 firms, avg. profit $0.04
 
 
 ========================= MONTH 41 =========================
 
-Produce: 46 firms, avg. profit $-24.99
-Services: 42 firms, avg. profit $-13.46
+Produce: 6 firms, avg. profit $-5.42
+Services: 4 firms, avg. profit $-5.04
+Metal: 20 firms, avg. profit $0.57
+Consumer Goods: 19 firms, avg. profit $0.44
 
 
 ========================= MONTH 42 =========================
 
-Produce: 44 firms, avg. profit $-24.99
-Services: 52 firms, avg. profit $-13.24
+Produce: 6 firms, avg. profit $-4.94
+Services: 4 firms, avg. profit $-1.30
+Metal: 19 firms, avg. profit $0.38
+Consumer Goods: 19 firms, avg. profit $0.81
 
 
 ========================= MONTH 43 =========================
 
-Produce: 48 firms, avg. profit $-26.46
-Services: 57 firms, avg. profit $-14.75
+Produce: 6 firms, avg. profit $-2.84
+Services: 3 firms, avg. profit $-3.25
+Metal: 18 firms, avg. profit $0.41
+Consumer Goods: 22 firms, avg. profit $0.39
 
 
 ========================= MONTH 44 =========================
 
-Produce: 44 firms, avg. profit $-24.11
-Services: 57 firms, avg. profit $-14.23
+Produce: 6 firms, avg. profit $-5.67
+Services: 3 firms, avg. profit $-5.91
+Metal: 18 firms, avg. profit $1.13
+Consumer Goods: 22 firms, avg. profit $-0.22
 
 
 ========================= MONTH 45 =========================
 
-Produce: 44 firms, avg. profit $-24.85
-Services: 59 firms, avg. profit $-12.55
+Produce: 5 firms, avg. profit $0.43
+Services: 3 firms, avg. profit $-4.23
+Metal: 17 firms, avg. profit $1.40
+Consumer Goods: 22 firms, avg. profit $-0.37
 
 
 ========================= MONTH 46 =========================
 
-Produce: 43 firms, avg. profit $-17.48
-Services: 63 firms, avg. profit $-13.66
+Produce: 5 firms, avg. profit $2.07
+Services: 3 firms, avg. profit $-4.75
+Metal: 19 firms, avg. profit $1.07
+Consumer Goods: 21 firms, avg. profit $-0.20
 
 
 ========================= MONTH 47 =========================
 
-Produce: 47 firms, avg. profit $-17.43
-Services: 59 firms, avg. profit $-10.02
+Produce: 8 firms, avg. profit $-2.54
+Services: 3 firms, avg. profit $-7.53
+Metal: 20 firms, avg. profit $0.66
+Consumer Goods: 21 firms, avg. profit $0.05
 
 
 ========================= MONTH 48 =========================
 
-Produce: 58 firms, avg. profit $-22.96
-Services: 65 firms, avg. profit $-13.21
+Produce: 8 firms, avg. profit $-0.77
+Services: 3 firms, avg. profit $-2.04
+Metal: 21 firms, avg. profit $0.62
+Consumer Goods: 20 firms, avg. profit $-0.40
 
 
 ========================= MONTH 49 =========================
 
-Produce: 66 firms, avg. profit $-16.43
-Services: 67 firms, avg. profit $-9.97
+Produce: 8 firms, avg. profit $-0.68
+Services: 3 firms, avg. profit $-2.85
+Metal: 21 firms, avg. profit $0.12
+Consumer Goods: 20 firms, avg. profit $0.09
 
 
 ========================= MONTH 50 =========================
 
-Produce: 64 firms, avg. profit $-18.72
-Services: 67 firms, avg. profit $-11.08
+Produce: 8 firms, avg. profit $-3.45
+Services: 3 firms, avg. profit $-3.20
+Metal: 20 firms, avg. profit $0.60
+Consumer Goods: 21 firms, avg. profit $-0.28
 
 
 ========================= MONTH 51 =========================
 
-Produce: 62 firms, avg. profit $-16.56
-Services: 57 firms, avg. profit $-10.39
+Produce: 8 firms, avg. profit $-5.19
+Services: 2 firms, avg. profit $0.22
+Metal: 19 firms, avg. profit $0.49
+Consumer Goods: 21 firms, avg. profit $0.07
 
 
 ========================= MONTH 52 =========================
 
-Produce: 61 firms, avg. profit $-17.18
-Services: 60 firms, avg. profit $-9.27
+Produce: 7 firms, avg. profit $-4.50
+Services: 3 firms, avg. profit $-4.75
+Metal: 17 firms, avg. profit $0.82
+Consumer Goods: 21 firms, avg. profit $-0.04
 
 
 ========================= MONTH 53 =========================
 
-Produce: 44 firms, avg. profit $-13.87
-Services: 61 firms, avg. profit $-10.41
+Produce: 7 firms, avg. profit $-3.24
+Services: 3 firms, avg. profit $-0.96
+Metal: 15 firms, avg. profit $0.79
+Consumer Goods: 20 firms, avg. profit $0.17
 
 
 ========================= MONTH 54 =========================
 
-Produce: 54 firms, avg. profit $-15.65
-Services: 56 firms, avg. profit $-8.77
+Produce: 6 firms, avg. profit $-1.12
+Services: 3 firms, avg. profit $-8.86
+Metal: 14 firms, avg. profit $0.18
+Consumer Goods: 20 firms, avg. profit $0.84
 
 
 ========================= MONTH 55 =========================
 
-Produce: 59 firms, avg. profit $-16.36
-Services: 67 firms, avg. profit $-11.86
+Produce: 6 firms, avg. profit $-5.98
+Services: 2 firms, avg. profit $0.14
+Metal: 12 firms, avg. profit $1.58
+Consumer Goods: 21 firms, avg. profit $-0.04
 
 
 ========================= MONTH 56 =========================
 
-Produce: 64 firms, avg. profit $-15.28
-Services: 75 firms, avg. profit $-12.95
+Produce: 5 firms, avg. profit $-2.69
+Services: 3 firms, avg. profit $-9.40
+Metal: 16 firms, avg. profit $0.75
+Consumer Goods: 21 firms, avg. profit $0.06
 
 
 ========================= MONTH 57 =========================
 
-Produce: 63 firms, avg. profit $-16.53
-Services: 77 firms, avg. profit $-13.57
+Produce: 5 firms, avg. profit $-4.01
+Services: 2 firms, avg. profit $-7.92
+Metal: 16 firms, avg. profit $0.71
+Consumer Goods: 21 firms, avg. profit $0.16
 
 
 ========================= MONTH 58 =========================
 
-Produce: 64 firms, avg. profit $-16.69
-Services: 65 firms, avg. profit $-11.85
+Produce: 5 firms, avg. profit $-7.31
+Services: 2 firms, avg. profit $-5.80
+Metal: 15 firms, avg. profit $1.52
+Consumer Goods: 23 firms, avg. profit $-0.61
 
 
 ========================= MONTH 59 =========================
 
-Produce: 56 firms, avg. profit $-16.89
-Services: 61 firms, avg. profit $-10.53
+Produce: 5 firms, avg. profit $-7.94
+Services: 2 firms, avg. profit $-5.98
+Metal: 20 firms, avg. profit $0.57
+Consumer Goods: 23 firms, avg. profit $-0.02
 
 
 ========================= MONTH 60 =========================
 
-Produce: 58 firms, avg. profit $-14.51
-Services: 64 firms, avg. profit $-12.15
+Produce: 5 firms, avg. profit $-1.61
+Services: 2 firms, avg. profit $-9.01
+Metal: 22 firms, avg. profit $0.51
+Consumer Goods: 23 firms, avg. profit $-0.12
 
 
 ========================= MONTH 61 =========================
 
-Produce: 75 firms, avg. profit $-15.26
-Services: 61 firms, avg. profit $-9.74
+Produce: 5 firms, avg. profit $-2.40
+Services: 2 firms, avg. profit $-9.63
+Metal: 19 firms, avg. profit $0.36
+Consumer Goods: 23 firms, avg. profit $-0.20
 
 
 ========================= MONTH 62 =========================
 
-Produce: 75 firms, avg. profit $-15.11
-Services: 73 firms, avg. profit $-9.69
+Produce: 5 firms, avg. profit $-6.21
+Services: 1 firms, avg. profit $-7.24
+Metal: 17 firms, avg. profit $0.40
+Consumer Goods: 23 firms, avg. profit $-0.08
 
 
 ========================= MONTH 63 =========================
 
-Produce: 73 firms, avg. profit $-15.45
-Services: 80 firms, avg. profit $-10.96
+Produce: 5 firms, avg. profit $-7.26
+Services: 2 firms, avg. profit $-7.94
+Metal: 15 firms, avg. profit $0.77
+Consumer Goods: 22 firms, avg. profit $-0.02
 
 
 ========================= MONTH 64 =========================
 
-Produce: 69 firms, avg. profit $-13.67
-Services: 80 firms, avg. profit $-10.15
+Produce: 5 firms, avg. profit $-11.83
+Services: 1 firms, avg. profit $47.40
+Metal: 13 firms, avg. profit $0.85
+Consumer Goods: 22 firms, avg. profit $0.45
 
 
 ========================= MONTH 65 =========================
 
-Produce: 66 firms, avg. profit $-13.30
-Services: 69 firms, avg. profit $-9.70
+Produce: 5 firms, avg. profit $-11.52
+Services: 5 firms, avg. profit $-6.32
+Metal: 10 firms, avg. profit $2.05
+Consumer Goods: 23 firms, avg. profit $0.01
 
 
 ========================= MONTH 66 =========================
 
-Produce: 57 firms, avg. profit $-12.61
-Services: 73 firms, avg. profit $-9.10
+Produce: 5 firms, avg. profit $-10.77
+Services: 5 firms, avg. profit $-4.61
+Metal: 12 firms, avg. profit $0.51
+Consumer Goods: 23 firms, avg. profit $0.58
 
 
 ========================= MONTH 67 =========================
 
-Produce: 64 firms, avg. profit $-12.70
-Services: 68 firms, avg. profit $-10.03
+Produce: 5 firms, avg. profit $-10.42
+Services: 5 firms, avg. profit $-5.19
+Metal: 14 firms, avg. profit $-0.05
+Consumer Goods: 22 firms, avg. profit $0.96
 
 
 ========================= MONTH 68 =========================
 
-Produce: 68 firms, avg. profit $-16.98
-Services: 68 firms, avg. profit $-10.70
+Produce: 5 firms, avg. profit $-18.30
+Services: 5 firms, avg. profit $-1.67
+Metal: 14 firms, avg. profit $1.68
+Consumer Goods: 27 firms, avg. profit $-0.25
 
 
 ========================= MONTH 69 =========================
 
-Produce: 74 firms, avg. profit $-16.20
-Services: 67 firms, avg. profit $-10.30
+Produce: 5 firms, avg. profit $-8.86
+Services: 5 firms, avg. profit $-3.90
+Metal: 18 firms, avg. profit $0.91
+Consumer Goods: 27 firms, avg. profit $-0.30
 
 
 ========================= MONTH 70 =========================
 
-Produce: 74 firms, avg. profit $-15.70
-Services: 83 firms, avg. profit $-12.55
+Produce: 5 firms, avg. profit $-3.68
+Services: 5 firms, avg. profit $-7.47
+Metal: 20 firms, avg. profit $0.42
+Consumer Goods: 26 firms, avg. profit $-0.00
 
 
 ========================= MONTH 71 =========================
 
-Produce: 73 firms, avg. profit $-12.71
-Services: 75 firms, avg. profit $-11.12
+Produce: 4 firms, avg. profit $-7.32
+Services: 5 firms, avg. profit $-2.48
+Metal: 22 firms, avg. profit $0.55
+Consumer Goods: 26 firms, avg. profit $-0.32
 
 
 ========================= MONTH 72 =========================
 
-Produce: 65 firms, avg. profit $-11.56
-Services: 66 firms, avg. profit $-9.78
+Produce: 4 firms, avg. profit $-13.44
+Services: 5 firms, avg. profit $-1.97
+Metal: 22 firms, avg. profit $0.82
+Consumer Goods: 25 firms, avg. profit $-0.43
 
 
 ========================= MONTH 73 =========================
 
-Produce: 58 firms, avg. profit $-10.52
-Services: 69 firms, avg. profit $-11.00
+Produce: 4 firms, avg. profit $-14.97
+Services: 5 firms, avg. profit $-3.17
+Metal: 23 firms, avg. profit $0.14
+Consumer Goods: 25 firms, avg. profit $0.19
 
 
 ========================= MONTH 74 =========================
 
-Produce: 71 firms, avg. profit $-12.89
-Services: 70 firms, avg. profit $-12.43
+Produce: 4 firms, avg. profit $-5.12
+Services: 5 firms, avg. profit $-4.93
+Metal: 22 firms, avg. profit $0.49
+Consumer Goods: 26 firms, avg. profit $-0.20
 
 
 ========================= MONTH 75 =========================
 
-Produce: 82 firms, avg. profit $-16.42
-Services: 57 firms, avg. profit $-12.81
+Produce: 5 firms, avg. profit $-11.88
+Services: 5 firms, avg. profit $2.01
+Metal: 22 firms, avg. profit $0.27
+Consumer Goods: 25 firms, avg. profit $0.22
 
 
 ========================= MONTH 76 =========================
 
-Produce: 78 firms, avg. profit $-13.46
-Services: 74 firms, avg. profit $-9.33
+Produce: 5 firms, avg. profit $-16.20
+Services: 7 firms, avg. profit $-2.19
+Metal: 21 firms, avg. profit $0.49
+Consumer Goods: 26 firms, avg. profit $0.18
 
 
 ========================= MONTH 77 =========================
 
-Produce: 77 firms, avg. profit $-13.11
-Services: 80 firms, avg. profit $-13.60
+Produce: 5 firms, avg. profit $-0.61
+Services: 7 firms, avg. profit $-5.83
+Metal: 20 firms, avg. profit $0.67
+Consumer Goods: 25 firms, avg. profit $0.33
 
 
 ========================= MONTH 78 =========================
 
-Produce: 76 firms, avg. profit $-10.23
-Services: 76 firms, avg. profit $-11.58
+Produce: 6 firms, avg. profit $-7.76
+Services: 6 firms, avg. profit $-0.84
+Metal: 22 firms, avg. profit $0.38
+Consumer Goods: 25 firms, avg. profit $0.04
 
 
 ========================= MONTH 79 =========================
 
-Produce: 66 firms, avg. profit $-10.98
-Services: 73 firms, avg. profit $-10.07
+Produce: 6 firms, avg. profit $-4.48
+Services: 6 firms, avg. profit $-3.53
+Metal: 20 firms, avg. profit $0.86
+Consumer Goods: 24 firms, avg. profit $-0.22
 
 
 ========================= MONTH 80 =========================
 
-Produce: 66 firms, avg. profit $-9.81
-Services: 85 firms, avg. profit $-11.44
+Produce: 6 firms, avg. profit $-4.65
+Services: 5 firms, avg. profit $-1.26
+Metal: 22 firms, avg. profit $1.02
+Consumer Goods: 24 firms, avg. profit $-0.68
 
 
 ========================= MONTH 81 =========================
 
-Produce: 77 firms, avg. profit $-11.46
-Services: 83 firms, avg. profit $-10.34
+Produce: 6 firms, avg. profit $-1.56
+Services: 5 firms, avg. profit $-4.78
+Metal: 20 firms, avg. profit $0.62
+Consumer Goods: 24 firms, avg. profit $-0.33
 
 
 ========================= MONTH 82 =========================
 
-Produce: 86 firms, avg. profit $-12.36
-Services: 89 firms, avg. profit $-9.64
+Produce: 6 firms, avg. profit $-4.02
+Services: 5 firms, avg. profit $-2.68
+Metal: 22 firms, avg. profit $0.64
+Consumer Goods: 24 firms, avg. profit $-0.51
 
 
 ========================= MONTH 83 =========================
 
-Produce: 87 firms, avg. profit $-9.31
-Services: 92 firms, avg. profit $-7.83
+Produce: 5 firms, avg. profit $-5.94
+Services: 4 firms, avg. profit $-3.76
+Metal: 20 firms, avg. profit $0.59
+Consumer Goods: 24 firms, avg. profit $-0.30
 
 
 ========================= MONTH 84 =========================
 
-Produce: 90 firms, avg. profit $-10.99
-Services: 93 firms, avg. profit $-8.31
+Produce: 5 firms, avg. profit $0.48
+Services: 3 firms, avg. profit $-6.74
+Metal: 20 firms, avg. profit $1.02
+Consumer Goods: 24 firms, avg. profit $-0.82
 
 
 ========================= MONTH 85 =========================
 
-Produce: 80 firms, avg. profit $-9.48
-Services: 80 firms, avg. profit $-8.34
+Produce: 5 firms, avg. profit $-2.28
+Services: 2 firms, avg. profit $-11.15
+Metal: 23 firms, avg. profit $0.01
+Consumer Goods: 24 firms, avg. profit $-0.02
 
 
 ========================= MONTH 86 =========================
 
-Produce: 80 firms, avg. profit $-9.99
-Services: 80 firms, avg. profit $-8.11
+Produce: 5 firms, avg. profit $-8.91
+Services: 2 firms, avg. profit $-1.68
+Metal: 20 firms, avg. profit $0.03
+Consumer Goods: 24 firms, avg. profit $0.35
 
 
 ========================= MONTH 87 =========================
 
-Produce: 72 firms, avg. profit $-9.75
-Services: 78 firms, avg. profit $-9.42
+Produce: 5 firms, avg. profit $-5.27
+Services: 1 firms, avg. profit $-5.50
+Metal: 19 firms, avg. profit $0.06
+Consumer Goods: 24 firms, avg. profit $0.52
 
 
 ========================= MONTH 88 =========================
 
-Produce: 79 firms, avg. profit $-8.55
-Services: 83 firms, avg. profit $-9.37
+Produce: 4 firms, avg. profit $-3.49
+Services: 3 firms, avg. profit $-12.04
+Metal: 19 firms, avg. profit $0.75
+Consumer Goods: 29 firms, avg. profit $-0.43
 
 
 ========================= MONTH 89 =========================
 
-Produce: 91 firms, avg. profit $-11.15
-Services: 96 firms, avg. profit $-10.21
+Produce: 5 firms, avg. profit $-3.37
+Services: 3 firms, avg. profit $-6.46
+Metal: 19 firms, avg. profit $0.26
+Consumer Goods: 29 firms, avg. profit $-0.21
 
 
 ========================= MONTH 90 =========================
 
-Produce: 92 firms, avg. profit $-10.09
-Services: 102 firms, avg. profit $-10.14
+Produce: 4 firms, avg. profit $0.20
+Services: 3 firms, avg. profit $-4.93
+Metal: 15 firms, avg. profit $0.30
+Consumer Goods: 29 firms, avg. profit $-0.11
 
 
 ========================= MONTH 91 =========================
 
-Produce: 82 firms, avg. profit $-8.36
-Services: 89 firms, avg. profit $-8.85
+Produce: 5 firms, avg. profit $-4.79
+Services: 2 firms, avg. profit $-1.97
+Metal: 15 firms, avg. profit $0.66
+Consumer Goods: 29 firms, avg. profit $-0.18
 
 
 ========================= MONTH 92 =========================
 
-Produce: 79 firms, avg. profit $-7.94
-Services: 82 firms, avg. profit $-8.77
+Produce: 6 firms, avg. profit $-2.68
+Services: 3 firms, avg. profit $-7.51
+Metal: 16 firms, avg. profit $0.32
+Consumer Goods: 29 firms, avg. profit $-0.11
 
 
 ========================= MONTH 93 =========================
 
-Produce: 89 firms, avg. profit $-9.66
-Services: 76 firms, avg. profit $-8.86
+Produce: 6 firms, avg. profit $-5.32
+Services: 3 firms, avg. profit $-2.23
+Metal: 16 firms, avg. profit $0.64
+Consumer Goods: 28 firms, avg. profit $-0.35
 
 
 ========================= MONTH 94 =========================
 
-Produce: 80 firms, avg. profit $-10.87
-Services: 78 firms, avg. profit $-9.07
+Produce: 6 firms, avg. profit $-9.28
+Services: 3 firms, avg. profit $-1.67
+Metal: 14 firms, avg. profit $1.25
+Consumer Goods: 28 firms, avg. profit $-0.29
 
 
 ========================= MONTH 95 =========================
 
-Produce: 85 firms, avg. profit $-8.57
-Services: 73 firms, avg. profit $-7.65
+Produce: 6 firms, avg. profit $-11.04
+Services: 3 firms, avg. profit $-0.03
+Metal: 14 firms, avg. profit $-0.09
+Consumer Goods: 28 firms, avg. profit $0.56
 
 
 ========================= MONTH 96 =========================
 
-Produce: 94 firms, avg. profit $-8.63
-Services: 95 firms, avg. profit $-9.42
+Produce: 6 firms, avg. profit $-6.78
+Services: 4 firms, avg. profit $-8.04
+Metal: 14 firms, avg. profit $1.34
+Consumer Goods: 29 firms, avg. profit $-0.16
 
 
 ========================= MONTH 97 =========================
 
-Produce: 100 firms, avg. profit $-10.11
-Services: 95 firms, avg. profit $-10.21
+Produce: 6 firms, avg. profit $-4.93
+Services: 4 firms, avg. profit $-5.97
+Metal: 17 firms, avg. profit $0.56
+Consumer Goods: 28 firms, avg. profit $-0.02
 
 
 ========================= MONTH 98 =========================
 
-Produce: 78 firms, avg. profit $-7.73
-Services: 94 firms, avg. profit $-8.48
+Produce: 6 firms, avg. profit $-4.33
+Services: 4 firms, avg. profit $-5.33
+Metal: 17 firms, avg. profit $-0.18
+Consumer Goods: 28 firms, avg. profit $0.26
 
 
 ========================= MONTH 99 =========================
 
-Produce: 77 firms, avg. profit $-7.70
-Services: 84 firms, avg. profit $-9.52
+Produce: 6 firms, avg. profit $-15.93
+Services: 4 firms, avg. profit $1.23
+Metal: 16 firms, avg. profit $0.71
+Consumer Goods: 29 firms, avg. profit $0.07
 
 

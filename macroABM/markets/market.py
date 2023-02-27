@@ -3,7 +3,7 @@ from .sellOrder import *
 
 WAGE_VISCOSITY = 0.05
 GOOD_PROFIT_INCREASE = 0.05
-ESTIMATED_BASE_ROI = 0.5
+ESTIMATED_BASE_ROI = 0.25
 
 class Market():
 
@@ -63,7 +63,7 @@ class Market():
                 self.prevAvgTradedPrice = 0.1
         else:
             self.prevAvgTradedPrice *= (1 + GOOD_PROFIT_INCREASE)
-        return self.prevAvgTradedPrice * ESTIMATED_BASE_ROI
+        return self.prevAvgTradedPrice * ESTIMATED_BASE_ROI / DICT_GOOD_PP_COST[self.marketType]
 
     def estimateFirmROI(self):
         
@@ -116,7 +116,8 @@ class Market():
     def buyLowest(self):
 
         lowestPrice, lowestPriceIndex = self.searchLowestAvailablePrice()
-        self.listSellOrders[lowestPriceIndex].makePurchase() 
+        if (lowestPriceIndex >= 0):
+            self.listSellOrders[lowestPriceIndex].makePurchase() 
         return lowestPrice
 
     def searchAvailableGoods(self):

@@ -51,3 +51,29 @@ class PopManager():
             if (pop.getId() == id):
                 pop.closeOwnedFirm(funds) 
                 break
+
+    def levyIncomeTax(self):
+
+        totalIncomeTax: float = 0.0
+        for pop in self.listPops:
+            totalIncomeTax += pop.payIncomeTax() 
+        return totalIncomeTax
+    
+    def findNumStarvingPops(self):
+
+        starvingPops: int = 0
+        for pop in self.listPops:
+            if (pop.currBundle[TYPE_PRODUCE] == 0): starvingPops += 1
+        return starvingPops
+
+    def feedStarvingPops(self, foodToDistribute: int):
+
+        for pop in self.listPops:
+            if (foodToDistribute < 1): return
+            if (pop.currBundle[TYPE_PRODUCE] == 0):
+                pop.currBundle[TYPE_PRODUCE] += 1
+                foodToDistribute -= 1
+
+    def findNumPops(self):
+
+        return len(self.listPops)
